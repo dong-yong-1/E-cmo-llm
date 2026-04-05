@@ -1,0 +1,90 @@
+{
+  "strategy": "scheme_2_base_split_plus_rules_to_train",
+  "seed": 42,
+  "inputs": {
+    "base_train": "data/train.json",
+    "base_val": "data/val.json",
+    "base_test": "data/test.json",
+    "rules_data": "ecommerce_sft_rules_v1.json"
+  },
+  "val_rules_ratio": 0.1,
+  "summary": {
+    "train": {
+      "count": 3312,
+      "category": {
+        "售后": 1209,
+        "物流": 1142,
+        "售前": 476,
+        "投诉": 485
+      },
+      "subcategory": {
+        "退货退款": 676,
+        "换货补发": 533,
+        "催发货": 567,
+        "商品咨询": 476,
+        "投诉安抚": 485,
+        "地址修改": 575
+      },
+      "difficulty": {
+        "medium": 1385,
+        "easy": 1442,
+        "hard": 485
+      },
+      "source": {
+        "synthetic": 2326,
+        "synthetic_rules": 986
+      }
+    },
+    "val": {
+      "count": 412,
+      "category": {
+        "售后": 153,
+        "物流": 137,
+        "售前": 60,
+        "投诉": 62
+      },
+      "subcategory": {
+        "换货补发": 65,
+        "退货退款": 88,
+        "催发货": 72,
+        "商品咨询": 60,
+        "地址修改": 65,
+        "投诉安抚": 62
+      },
+      "difficulty": {
+        "easy": 188,
+        "medium": 162,
+        "hard": 62
+      },
+      "source": {
+        "synthetic": 295,
+        "synthetic_rules": 117
+      }
+    },
+    "test": {
+      "count": 306,
+      "category": {
+        "售前": 52,
+        "售后": 100,
+        "投诉": 50,
+        "物流": 104
+      },
+      "subcategory": {
+        "商品咨询": 52,
+        "退货退款": 50,
+        "投诉安抚": 50,
+        "催发货": 52,
+        "换货补发": 50,
+        "地址修改": 52
+      },
+      "difficulty": {
+        "medium": 114,
+        "easy": 142,
+        "hard": 50
+      },
+      "source": {
+        "synthetic": 306
+      }
+    }
+  }
+}

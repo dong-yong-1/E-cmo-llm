@@ -1,0 +1,118 @@
+{
+  "input": "ecommerce_sft_v1.json",
+  "output_dir": "data",
+  "seed": 42,
+  "ratios": {
+    "train": 0.8,
+    "val": 0.1,
+    "test": 0.1
+  },
+  "stratify_fields": [
+    "subcategory",
+    "difficulty"
+  ],
+  "summary": {
+    "train": {
+      "count": 2397,
+      "category": {
+        "售后": 800,
+        "物流": 798,
+        "售前": 399,
+        "投诉": 400
+      },
+      "subcategory": {
+        "退货退款": 400,
+        "换货补发": 400,
+        "催发货": 399,
+        "商品咨询": 399,
+        "投诉安抚": 400,
+        "地址修改": 399
+      },
+      "difficulty": {
+        "medium": 883,
+        "easy": 1114,
+        "hard": 400
+      },
+      "stratify_buckets": {
+        "退货退款|medium": 260,
+        "退货退款|easy": 140,
+        "换货补发|easy": 400,
+        "催发货|easy": 192,
+        "商品咨询|medium": 211,
+        "投诉安抚|hard": 400,
+        "商品咨询|easy": 188,
+        "地址修改|easy": 194,
+        "地址修改|medium": 205,
+        "催发货|medium": 207
+      }
+    },
+    "val": {
+      "count": 296,
+      "category": {
+        "售后": 99,
+        "物流": 98,
+        "售前": 49,
+        "投诉": 50
+      },
+      "subcategory": {
+        "换货补发": 50,
+        "退货退款": 49,
+        "催发货": 49,
+        "商品咨询": 49,
+        "地址修改": 49,
+        "投诉安抚": 50
+      },
+      "difficulty": {
+        "easy": 138,
+        "medium": 108,
+        "hard": 50
+      },
+      "stratify_buckets": {
+        "换货补发|easy": 50,
+        "退货退款|medium": 32,
+        "催发货|medium": 25,
+        "商品咨询|medium": 26,
+        "地址修改|medium": 25,
+        "催发货|easy": 24,
+        "投诉安抚|hard": 50,
+        "商品咨询|easy": 23,
+        "地址修改|easy": 24,
+        "退货退款|easy": 17
+      }
+    },
+    "test": {
+      "count": 307,
+      "category": {
+        "售前": 52,
+        "售后": 101,
+        "投诉": 50,
+        "物流": 104
+      },
+      "subcategory": {
+        "商品咨询": 52,
+        "退货退款": 51,
+        "投诉安抚": 50,
+        "催发货": 52,
+        "换货补发": 50,
+        "地址修改": 52
+      },
+      "difficulty": {
+        "medium": 114,
+        "easy": 143,
+        "hard": 50
+      },
+      "stratify_buckets": {
+        "商品咨询|medium": 27,
+        "退货退款|easy": 18,
+        "商品咨询|easy": 25,
+        "投诉安抚|hard": 50,
+        "催发货|medium": 27,
+        "换货补发|easy": 50,
+        "催发货|easy": 25,
+        "地址修改|easy": 25,
+        "退货退款|medium": 33,
+        "地址修改|medium": 27
+      }
+    }
+  }
+}

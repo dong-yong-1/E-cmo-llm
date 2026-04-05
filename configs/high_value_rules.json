@@ -1,0 +1,455 @@
+[
+  {
+    "rule_id": "refund_no_reason_unopened_only",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "tag": "可无理由退货",
+    "difficulty": "easy",
+    "condition": "商品未拆封且不影响二次销售",
+    "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。",
+    "allowed": [
+      "明确支持7天无理由退货",
+      "引导用户提交退货申请"
+    ],
+    "forbidden": [
+      "忽略商品状态",
+      "跳过退货流程说明"
+    ],
+    "question_templates": [
+      "这个商品可以退吗？",
+      "不满意可以退款吗？",
+      "收到后不想要了能退吗？"
+    ],
+    "order_status_options": [
+      "已签收"
+    ],
+    "product_categories": [
+      "服饰",
+      "数码配件",
+      "家居用品",
+      "母婴用品"
+    ],
+    "user_emotions": [
+      "neutral",
+      "anxious"
+    ],
+    "is_opened": false,
+    "has_quality_issue": false
+  },
+  {
+    "rule_id": "refund_opened_non_quality_forbidden",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "tag": "不可无理由退货",
+    "difficulty": "medium",
+    "condition": "商品已拆封且非质量问题",
+    "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。",
+    "allowed": [
+      "明确说明通常不支持无理由退货",
+      "建议用户提供订单信息进一步核实特殊情况"
+    ],
+    "forbidden": [
+      "直接承诺退款",
+      "忽略已拆封条件"
+    ],
+    "question_templates": [
+      "已经拆封还能退吗？",
+      "商品打开了还能退款吗？",
+      "拆封后不想要了能退吗？"
+    ],
+    "order_status_options": [
+      "已签收"
+    ],
+    "product_categories": [
+      "食品",
+      "护肤品",
+      "母婴用品"
+    ],
+    "user_emotions": [
+      "neutral",
+      "anxious",
+      "angry"
+    ],
+    "is_opened": true,
+    "has_quality_issue": false
+  },
+  {
+    "rule_id": "quality_issue_refund_supported",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "tag": "质量问题可退",
+    "difficulty": "medium",
+    "condition": "商品存在质量问题",
+    "platform_rule": "商品存在质量问题时可申请退货退款，并需提供订单信息和问题凭证。",
+    "allowed": [
+      "支持退货退款",
+      "要求提供订单号和问题照片"
+    ],
+    "forbidden": [
+      "增加未拆封限制",
+      "拒绝处理质量问题"
+    ],
+    "question_templates": [
+      "商品有质量问题怎么处理？",
+      "收到的是坏的可以退吗？",
+      "东西坏了能退款吗？"
+    ],
+    "order_status_options": [
+      "已签收"
+    ],
+    "product_categories": [
+      "服饰",
+      "护肤品",
+      "数码配件",
+      "家居用品",
+      "食品",
+      "母婴用品"
+    ],
+    "user_emotions": [
+      "neutral",
+      "anxious",
+      "angry"
+    ],
+    "is_opened": true,
+    "has_quality_issue": true
+  },
+  {
+    "rule_id": "quality_issue_shipping_by_seller",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "tag": "质量问题商家承担运费",
+    "difficulty": "medium",
+    "condition": "质量问题退货退款",
+    "platform_rule": "因质量问题产生的退货退款，相关运费通常由商家承担。",
+    "allowed": [
+      "说明运费由商家承担",
+      "引导进入售后流程"
+    ],
+    "forbidden": [
+      "让用户承担质量问题运费",
+      "回避运费责任说明"
+    ],
+    "question_templates": [
+      "质量问题退货运费谁承担？",
+      "商品坏了退回去邮费谁出？",
+      "有问题退货还要我出运费吗？"
+    ],
+    "order_status_options": [
+      "已签收"
+    ],
+    "product_categories": [
+      "服饰",
+      "护肤品",
+      "数码配件",
+      "家居用品"
+    ],
+    "user_emotions": [
+      "neutral",
+      "anxious"
+    ],
+    "has_quality_issue": true
+  },
+  {
+    "rule_id": "exchange_requires_after_sales_flow",
+    "category": "售后",
+    "subcategory": "换货补发",
+    "tag": "先提交售后",
+    "difficulty": "easy",
+    "condition": "用户申请换货或补发",
+    "platform_rule": "换货或补发通常需要用户先在订单页面提交售后申请，审核后再安排处理。",
+    "allowed": [
+      "引导用户先提交售后申请",
+      "说明审核后安排换货或补发"
+    ],
+    "forbidden": [
+      "承诺已直接提交申请",
+      "直接保证换货成功"
+    ],
+    "question_templates": [
+      "可以换货吗？",
+      "想换一个新的怎么操作？",
+      "这个能直接补发吗？"
+    ],
+    "order_status_options": [
+      "已签收"
+    ],
+    "product_categories": [
+      "服饰",
+      "数码配件",
+      "家居用品",
+      "母婴用品"
+    ],
+    "user_emotions": [
+      "neutral",
+      "anxious"
+    ]
+  },
+  {
+    "rule_id": "wrong_item_or_damage_can_resend",
+    "category": "售后",
+    "subcategory": "换货补发",
+    "tag": "发错货或损坏可补发",
+    "difficulty": "easy",
+    "condition": "发错货或商品损坏",
+    "platform_rule": "发错货或商品损坏时，可优先安排补发或换货，并需用户提供订单号和照片凭证。",
+    "allowed": [
+      "说明可补发或换货",
+      "要求提供订单号和照片凭证"
+    ],
+    "forbidden": [
+      "要求无关信息",
+      "附加与规则无关的限制条件"
+    ],
+    "question_templates": [
+      "发错货了怎么办？",
+      "商品坏了可以补发吗？",
+      "收到破损商品怎么处理？"
+    ],
+    "order_status_options": [
+      "已签收"
+    ],
+    "product_categories": [
+      "服饰",
+      "数码配件",
+      "家居用品",
+      "食品",
+      "母婴用品"
+    ],
+    "user_emotions": [
+      "neutral",
+      "anxious",
+      "angry"
+    ],
+    "has_quality_issue": true
+  },
+  {
+    "rule_id": "pending_order_can_be_urged",
+    "category": "物流",
+    "subcategory": "催发货",
+    "tag": "待发货可催仓",
+    "difficulty": "easy",
+    "condition": "订单待发货",
+    "platform_rule": "订单待发货时可帮助催仓，但无法保证立即发出。",
+    "allowed": [
+      "说明可以帮忙催仓",
+      "说明会尽快跟进"
+    ],
+    "forbidden": [
+      "承诺立即发出",
+      "虚构已经加急成功"
+    ],
+    "question_templates": [
+      "为什么还没发货？",
+      "订单多久发货？",
+      "能帮我催一下发货吗？"
+    ],
+    "order_status_options": [
+      "待发货"
+    ],
+    "product_categories": [
+      "服饰",
+      "护肤品",
+      "数码配件",
+      "家居用品",
+      "食品",
+      "母婴用品"
+    ],
+    "user_emotions": [
+      "neutral",
+      "anxious",
+      "angry"
+    ]
+  },
+  {
+    "rule_id": "in_transit_cannot_expedite",
+    "category": "物流",
+    "subcategory": "催发货",
+    "tag": "运输中不可加急",
+    "difficulty": "medium",
+    "condition": "订单运输中，用户要求加急或优先配送",
+    "platform_rule": "订单运输中无法人工加急，只能持续关注物流轨迹，不得承诺已开启紧急处理。",
+    "allowed": [
+      "说明无法人工加急",
+      "建议关注物流轨迹或配送进度"
+    ],
+    "forbidden": [
+      "承诺已加急",
+      "虚构已联系仓库优先发货",
+      "虚构已开启紧急处理"
+    ],
+    "question_templates": [
+      "可以加急发货吗？",
+      "快递能不能催快一点？",
+      "今天能帮我优先送到吗？"
+    ],
+    "order_status_options": [
+      "运输中"
+    ],
+    "product_categories": [
+      "服饰",
+      "护肤品",
+      "数码配件",
+      "家居用品",
+      "食品",
+      "母婴用品"
+    ],
+    "user_emotions": [
+      "neutral",
+      "anxious",
+      "angry"
+    ]
+  },
+  {
+    "rule_id": "pending_order_address_may_be_modified",
+    "category": "物流",
+    "subcategory": "地址修改",
+    "tag": "待发货可尝试改地址",
+    "difficulty": "easy",
+    "condition": "订单待发货",
+    "platform_rule": "订单待发货时可尝试修改地址，但修改结果需以仓库拦截或系统处理结果为准。",
+    "allowed": [
+      "说明可以尝试修改地址",
+      "说明成功与否以仓库处理结果为准"
+    ],
+    "forbidden": [
+      "承诺一定修改成功",
+      "表示已经修改完成但未核实"
+    ],
+    "question_templates": [
+      "能修改收货地址吗？",
+      "收货地址填错了还能改吗？",
+      "订单还没发能帮我改地址吗？"
+    ],
+    "order_status_options": [
+      "待发货"
+    ],
+    "product_categories": [
+      "服饰",
+      "护肤品",
+      "数码配件",
+      "家居用品",
+      "食品",
+      "母婴用品"
+    ],
+    "user_emotions": [
+      "neutral",
+      "anxious"
+    ]
+  },
+  {
+    "rule_id": "shipped_order_address_cannot_be_directly_modified",
+    "category": "物流",
+    "subcategory": "地址修改",
+    "tag": "发货后不可直接改地址",
+    "difficulty": "medium",
+    "condition": "订单已发货或运输中",
+    "platform_rule": "订单发货后通常无法直接修改地址，可建议联系派件员或快递协商，不得承诺已联系仓库改址。",
+    "allowed": [
+      "说明无法直接修改地址",
+      "建议联系派件员或快递协商"
+    ],
+    "forbidden": [
+      "承诺可直接改地址",
+      "虚构已联系仓库修改地址"
+    ],
+    "question_templates": [
+      "发货后还能改地址吗？",
+      "包裹已经寄出了还能换地址吗？",
+      "运输中能不能帮我改收货地址？"
+    ],
+    "order_status_options": [
+      "运输中"
+    ],
+    "product_categories": [
+      "服饰",
+      "护肤品",
+      "数码配件",
+      "家居用品",
+      "食品",
+      "母婴用品"
+    ],
+    "user_emotions": [
+      "neutral",
+      "anxious",
+      "angry"
+    ]
+  },
+  {
+    "rule_id": "product_info_unknown_do_not_hallucinate",
+    "category": "售前",
+    "subcategory": "商品咨询",
+    "tag": "信息不足先说明",
+    "difficulty": "medium",
+    "condition": "上下文未提供明确商品属性",
+    "platform_rule": "当上下文未提供明确商品属性时，应以商品详情页为准或说明可进一步核实，不得编造成分、材质、库存或适用人群。",
+    "allowed": [
+      "以商品详情页为准",
+      "说明可以进一步核实"
+    ],
+    "forbidden": [
+      "编造成分材质",
+      "虚构库存或适用人群",
+      "把基础咨询完全甩给用户自行处理"
+    ],
+    "question_templates": [
+      "材质是什么？",
+      "这款商品适合什么人群？",
+      "库存还有吗？",
+      "支持保修吗？"
+    ],
+    "order_status_options": [
+      "待发货"
+    ],
+    "product_categories": [
+      "护肤品",
+      "食品",
+      "母婴用品",
+      "家居用品",
+      "数码配件"
+    ],
+    "user_emotions": [
+      "neutral",
+      "anxious"
+    ]
+  },
+  {
+    "rule_id": "complaint_must_comfort_then_resolve",
+    "category": "投诉",
+    "subcategory": "投诉安抚",
+    "tag": "先安抚再处理",
+    "difficulty": "hard",
+    "condition": "用户表达不满、投诉或情绪激动",
+    "platform_rule": "投诉场景需先安抚情绪，再给出明确处理路径或升级方式，不能把投诉问题错判成物流或售前问题。",
+    "allowed": [
+      "先安抚情绪",
+      "给出明确处理路径或升级方式"
+    ],
+    "forbidden": [
+      "只道歉不处理",
+      "把投诉误转成物流或商品咨询问题"
+    ],
+    "question_templates": [
+      "我要投诉",
+      "商家态度不好怎么办？",
+      "客服一直不回复",
+      "质量太差了怎么办？"
+    ],
+    "order_status_options": [
+      "待发货",
+      "运输中",
+      "已签收"
+    ],
+    "product_categories": [
+      "服饰",
+      "护肤品",
+      "数码配件",
+      "家居用品",
+      "食品",
+      "母婴用品"
+    ],
+    "user_emotions": [
+      "angry",
+      "anxious"
+    ]
+  }
+]
