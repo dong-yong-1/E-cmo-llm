@@ -10,12 +10,18 @@ if [[ ! -f ".env" ]]; then
   exit 1
 fi
 
-if command -v uv >/dev/null 2>&1; then
+if [[ -n "${PYTHON_BIN:-}" ]]; then
+  PY_RUN=("$PYTHON_BIN")
+elif command -v uv >/dev/null 2>&1; then
   PY_RUN=(uv run python)
 elif [[ -x ".venv/bin/python" ]]; then
   PY_RUN=(".venv/bin/python")
+elif command -v python >/dev/null 2>&1; then
+  PY_RUN=(python)
+elif command -v python3 >/dev/null 2>&1; then
+  PY_RUN=(python3)
 else
-  echo "未找到 uv，也未找到 .venv/bin/python。"
+  echo "未找到可用的 Python 解释器。可通过 PYTHON_BIN 显式指定。"
   exit 1
 fi
 
@@ -40,6 +46,8 @@ REPORT_TO="${REPORT_TO:-none}"
 RUN_NAME="${RUN_NAME:-}"
 
 mkdir -p "$OUTPUT_DIR" "$REPORT_DIR"
+
+printf 'Python: %s\n' "${PY_RUN[*]}"
 
 echo "========== M1 小实验：训练 =========="
 "${PY_RUN[@]}" scripts/train_sft.py \

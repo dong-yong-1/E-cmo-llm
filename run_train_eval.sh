@@ -10,12 +10,18 @@ if [[ ! -f ".env" ]]; then
   exit 1
 fi
 
-if command -v uv >/dev/null 2>&1; then
+if [[ -n "${PYTHON_BIN:-}" ]]; then
+  PY_RUN=("$PYTHON_BIN")
+elif command -v uv >/dev/null 2>&1; then
   PY_RUN=(uv run python)
 elif [[ -x ".venv/bin/python" ]]; then
   PY_RUN=(".venv/bin/python")
+elif command -v python >/dev/null 2>&1; then
+  PY_RUN=(python)
+elif command -v python3 >/dev/null 2>&1; then
+  PY_RUN=(python3)
 else
-  echo "未找到 uv，也未找到 .venv/bin/python，无法运行项目。"
+  echo "未找到可用的 Python 解释器。可通过 PYTHON_BIN 显式指定。"
   exit 1
 fi
 
@@ -70,6 +76,7 @@ printf '训练数据: %s\n' "$DATA_PATH"
 printf '评测数据: %s\n' "$EVAL_DATA_PATH"
 printf '输出目录: %s\n' "$OUTPUT_DIR"
 printf '报告目录: %s\n' "$REPORT_DIR"
+printf 'Python: %s\n' "${PY_RUN[*]}"
 
 "${PY_RUN[@]}" scripts/train_sft.py \
   --model-name "$MODEL_NAME" \
