@@ -44,6 +44,8 @@ DEVICE_MAP="${DEVICE_MAP:-cpu}"
 MAX_NEW_TOKENS="${MAX_NEW_TOKENS:-128}"
 DEMO_SAMPLES="${DEMO_SAMPLES:-2}"
 SEED="${SEED:-42}"
+REPORT_TO="${REPORT_TO:-none}"
+RUN_NAME="${RUN_NAME:-}"
 
 CANDIDATE_NAME="${CANDIDATE_NAME:-$(basename "$OUTPUT_DIR")}"
 BASELINE_NAME="${BASELINE_NAME:-base_model}"
@@ -91,7 +93,9 @@ printf '报告目录: %s\n' "$REPORT_DIR"
   --device-map "$DEVICE_MAP" \
   --max-new-tokens "$MAX_NEW_TOKENS" \
   --demo-samples "$DEMO_SAMPLES" \
-  --seed "$SEED"
+  --seed "$SEED" \
+  --report-to "$REPORT_TO" \
+  --run-name "$RUN_NAME"
 
 if [[ ! -f "$OUTPUT_DIR/adapter_model.safetensors" ]]; then
   echo "训练已完成，但未在 $OUTPUT_DIR 下找到 adapter_model.safetensors"

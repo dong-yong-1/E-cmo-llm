@@ -36,6 +36,8 @@ TORCH_DTYPE="${TORCH_DTYPE:-float32}"
 DEVICE_MAP="${DEVICE_MAP:-cpu}"
 MAX_NEW_TOKENS="${MAX_NEW_TOKENS:-96}"
 SEED="${SEED:-42}"
+REPORT_TO="${REPORT_TO:-none}"
+RUN_NAME="${RUN_NAME:-}"
 
 mkdir -p "$OUTPUT_DIR" "$REPORT_DIR"
 
@@ -54,7 +56,9 @@ echo "========== M1 小实验：训练 =========="
   --max-new-tokens "$MAX_NEW_TOKENS" \
   --demo-samples 1 \
   --seed "$SEED" \
-  --max-train-samples "$MAX_TRAIN_SAMPLES"
+  --max-train-samples "$MAX_TRAIN_SAMPLES" \
+  --report-to "$REPORT_TO" \
+  --run-name "$RUN_NAME"
 
 echo "========== M1 小实验：评估（仅规则准确率） =========="
 "${PY_RUN[@]}" scripts/evaluate.py \

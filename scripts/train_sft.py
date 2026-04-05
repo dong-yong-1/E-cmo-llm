@@ -2,6 +2,7 @@ import argparse
 import inspect
 import json
 import os
+from pathlib import Path
 
 import torch
 from datasets import Dataset
@@ -12,7 +13,8 @@ from trl import SFTTrainer
 
 from dataset_schema import build_prompt, validate_record
 
-load_dotenv()
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+load_dotenv(PROJECT_ROOT / ".env")
 
 
 def parse_args() -> argparse.Namespace:
@@ -44,6 +46,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--demo-samples", type=int, default=3, help="训练后展示多少条样例")
     parser.add_argument("--seed", type=int, default=42, help="随机种子")
     parser.add_argument("--max-train-samples", type=int, default=0, help="仅用于小实验，>0 时只取前 N 条样本训练")
+    parser.add_argument("--report-to", default="none", help="训练日志上报目标，例如 none 或 wandb")
+    parser.add_argument("--run-name", default=None, help="实验名称，启用 wandb 时建议设置")
     return parser.parse_args()
 
 
@@ -118,7 +122,8 @@ def build_training_args(args: argparse.Namespace) -> TrainingArguments:
         warmup_ratio=args.warmup_ratio,
         weight_decay=args.weight_decay,
         seed=args.seed,
-        report_to="none",
+        report_to=args.report_to,
+        run_name=args.run_name,
     )
 
 
@@ -137,6 +142,8 @@ def print_run_config(args: argparse.Namespace, num_samples: int) -> None:
     print(f"- target_modules: {args.target_modules}")
     print(f"- torch_dtype: {args.torch_dtype}")
     print(f"- device_map: {args.device_map}")
+    print(f"- report_to: {args.report_to}")
+    print(f"- run_name: {args.run_name}")
 
 
 def generate_demo(model, tokenizer, query: str, max_new_tokens: int) -> str:

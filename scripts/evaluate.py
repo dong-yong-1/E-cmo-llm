@@ -2,6 +2,7 @@ import argparse
 import json
 import os
 from collections import Counter, defaultdict
+from pathlib import Path
 from typing import Any
 
 import torch
@@ -12,7 +13,8 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 
 from dataset_schema import build_prompt, validate_record
 
-load_dotenv()
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+load_dotenv(PROJECT_ROOT / ".env")
 
 
 def parse_args() -> argparse.Namespace:

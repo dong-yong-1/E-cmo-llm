@@ -4,13 +4,15 @@ import os
 import random
 import time
 from itertools import count
+from pathlib import Path
 
 from dotenv import load_dotenv
 from openai import OpenAI
 
 from scripts.dataset_schema import SCHEMA_VERSION, validate_record
 
-load_dotenv()
+PROJECT_ROOT = Path(__file__).resolve().parent
+load_dotenv(PROJECT_ROOT / ".env")
 
 DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
 DEEPSEEK_BASE_URL = os.getenv("DEEPSEEK_BASE_URL", "https://api.deepseek.com")
