@@ -1,0 +1,47 @@
+{
+  "input_dir": "data/final_v3",
+  "output_dir": "data/final_v4_clean",
+  "clean_test": false,
+  "split_changes": {
+    "train": {
+      "normalized_opened_non_quality_refund": 265,
+      "normalized_exchange_flow": 471,
+      "normalized_pending_urge": 290,
+      "normalized_product_audience": 132,
+      "normalized_complaint_flow": 418,
+      "normalized_shipped_address": 416,
+      "normalized_in_transit_urge": 410,
+      "normalized_product_stock": 99,
+      "normalized_quality_refund": 300,
+      "normalized_unopened_refund": 134,
+      "normalized_pending_address": 45
+    },
+    "val": {
+      "normalized_exchange_flow": 56,
+      "normalized_quality_refund": 28,
+      "normalized_pending_urge": 31,
+      "normalized_product_audience": 12,
+      "normalized_shipped_address": 47,
+      "normalized_in_transit_urge": 52,
+      "normalized_complaint_flow": 57,
+      "normalized_opened_non_quality_refund": 37,
+      "normalized_product_stock": 17,
+      "normalized_unopened_refund": 24,
+      "normalized_pending_address": 3
+    },
+    "test": {}
+  },
+  "total_changes": {
+    "normalized_opened_non_quality_refund": 302,
+    "normalized_exchange_flow": 527,
+    "normalized_pending_urge": 321,
+    "normalized_product_audience": 144,
+    "normalized_complaint_flow": 475,
+    "normalized_shipped_address": 463,
+    "normalized_in_transit_urge": 462,
+    "normalized_product_stock": 116,
+    "normalized_quality_refund": 328,
+    "normalized_unopened_refund": 158,
+    "normalized_pending_address": 48
+  }
+}
