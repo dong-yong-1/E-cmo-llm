@@ -1,0 +1,54 @@
+{
+  "input_dir": "data/final",
+  "output_dir": "data/final_clean",
+  "split_changes": {
+    "train": {
+      "normalized_opened_non_quality_refund_response": 121,
+      "fixed_opened_flag_from_instruction": 45,
+      "normalized_product_warranty_response": 134,
+      "normalized_product_rule_and_tags": 356,
+      "normalized_product_material_response": 123,
+      "fixed_address_status_to_in_transit": 93,
+      "normalized_shipped_address_response": 394,
+      "normalized_product_stock_response": 99,
+      "normalized_pending_address_response": 181,
+      "normalized_pre_delivery_quality_complaint_response": 93
+    },
+    "val": {
+      "normalized_shipped_address_response": 45,
+      "normalized_pre_delivery_quality_complaint_response": 9,
+      "normalized_product_material_response": 20,
+      "normalized_product_rule_and_tags": 48,
+      "normalized_product_stock_response": 17,
+      "normalized_pending_address_response": 20,
+      "normalized_opened_non_quality_refund_response": 13,
+      "fixed_address_status_to_in_transit": 11,
+      "fixed_opened_flag_from_instruction": 4,
+      "normalized_product_warranty_response": 11
+    },
+    "test": {
+      "normalized_product_stock_response": 16,
+      "normalized_product_rule_and_tags": 44,
+      "normalized_product_material_response": 19,
+      "normalized_shipped_address_response": 35,
+      "normalized_pending_address_response": 17,
+      "normalized_opened_non_quality_refund_response": 9,
+      "fixed_opened_flag_from_instruction": 4,
+      "normalized_pre_delivery_quality_complaint_response": 6,
+      "normalized_product_warranty_response": 9,
+      "fixed_address_status_to_in_transit": 18
+    }
+  },
+  "total_changes": {
+    "normalized_opened_non_quality_refund_response": 143,
+    "fixed_opened_flag_from_instruction": 53,
+    "normalized_product_warranty_response": 154,
+    "normalized_product_rule_and_tags": 448,
+    "normalized_product_material_response": 162,
+    "fixed_address_status_to_in_transit": 122,
+    "normalized_shipped_address_response": 474,
+    "normalized_product_stock_response": 132,
+    "normalized_pending_address_response": 218,
+    "normalized_pre_delivery_quality_complaint_response": 108
+  }
+}
