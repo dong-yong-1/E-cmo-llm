@@ -1,0 +1,18 @@
+{
+  "base_dir": "data/final_v2",
+  "targeted_path": "data/targeted/precision_targeted_v1.json",
+  "output_dir": "data/final_v3",
+  "seed": 42,
+  "val_ratio": 0.1,
+  "counts": {
+    "base_train": 3597,
+    "base_val": 443,
+    "base_test": 306,
+    "targeted_total": 62,
+    "targeted_train": 56,
+    "targeted_val": 6,
+    "merged_train": 3653,
+    "merged_val": 449,
+    "merged_test": 306
+  }
+}

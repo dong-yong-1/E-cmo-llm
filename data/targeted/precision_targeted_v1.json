@@ -1,0 +1,1490 @@
+[
+  {
+    "id": "precision_售后_退货退款_00001",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：不满意可以退款吗？",
+    "input": {
+      "product_category": "护肤品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，若商品已经拆封且没有质量问题，通常不支持7天无理由退货。若您希望进一步核实特殊情况，可以把订单号和具体诉求发给我，我帮您继续确认。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "refund_opened_non_quality_precise"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_售后_退货退款_00002",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：不满意可以退款吗？",
+    "input": {
+      "product_category": "护肤品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，若商品已经拆封且没有质量问题，通常不支持7天无理由退货。若您希望进一步核实特殊情况，可以把订单号和具体诉求发给我，我帮您继续确认。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "refund_opened_non_quality_precise"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_售后_退货退款_00003",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：不满意可以退款吗？",
+    "input": {
+      "product_category": "食品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，若商品已经拆封且没有质量问题，通常不支持7天无理由退货。若您希望进一步核实特殊情况，可以把订单号和具体诉求发给我，我帮您继续确认。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "refund_opened_non_quality_precise"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_售后_退货退款_00004",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：不满意可以退款吗？",
+    "input": {
+      "product_category": "食品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，若商品已经拆封且没有质量问题，通常不支持7天无理由退货。若您希望进一步核实特殊情况，可以把订单号和具体诉求发给我，我帮您继续确认。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "refund_opened_non_quality_precise"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_售后_退货退款_00005",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：不满意可以退款吗？",
+    "input": {
+      "product_category": "家居用品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，若商品已经拆封且没有质量问题，通常不支持7天无理由退货。若您希望进一步核实特殊情况，可以把订单号和具体诉求发给我，我帮您继续确认。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "refund_opened_non_quality_precise"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_售后_退货退款_00006",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：不满意可以退款吗？",
+    "input": {
+      "product_category": "家居用品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，若商品已经拆封且没有质量问题，通常不支持7天无理由退货。若您希望进一步核实特殊情况，可以把订单号和具体诉求发给我，我帮您继续确认。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "refund_opened_non_quality_precise"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_售后_退货退款_00007",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：不满意可以退款吗？",
+    "input": {
+      "product_category": "数码配件",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，若商品已经拆封且没有质量问题，通常不支持7天无理由退货。若您希望进一步核实特殊情况，可以把订单号和具体诉求发给我，我帮您继续确认。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "refund_opened_non_quality_precise"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_售后_退货退款_00008",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：不满意可以退款吗？",
+    "input": {
+      "product_category": "数码配件",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，若商品已经拆封且没有质量问题，通常不支持7天无理由退货。若您希望进一步核实特殊情况，可以把订单号和具体诉求发给我，我帮您继续确认。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "refund_opened_non_quality_precise"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_售后_退货退款_00009",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "护肤品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，商品已拆封且没有质量问题时，通常不支持7天无理由退货。如您担心商品存在异常，也可以把具体情况发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "refund_opened_non_quality_precise"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_售后_退货退款_00010",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "护肤品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，商品已拆封且没有质量问题时，通常不支持7天无理由退货。如您担心商品存在异常，也可以把具体情况发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "refund_opened_non_quality_precise"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_售后_退货退款_00011",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "食品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，商品已拆封且没有质量问题时，通常不支持7天无理由退货。如您担心商品存在异常，也可以把具体情况发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "refund_opened_non_quality_precise"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_售后_退货退款_00012",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "食品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，商品已拆封且没有质量问题时，通常不支持7天无理由退货。如您担心商品存在异常，也可以把具体情况发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "refund_opened_non_quality_precise"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_售后_退货退款_00013",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "家居用品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，商品已拆封且没有质量问题时，通常不支持7天无理由退货。如您担心商品存在异常，也可以把具体情况发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "refund_opened_non_quality_precise"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_售后_退货退款_00014",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "家居用品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，商品已拆封且没有质量问题时，通常不支持7天无理由退货。如您担心商品存在异常，也可以把具体情况发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "refund_opened_non_quality_precise"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_售后_退货退款_00015",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "数码配件",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，商品已拆封且没有质量问题时，通常不支持7天无理由退货。如您担心商品存在异常，也可以把具体情况发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "refund_opened_non_quality_precise"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_售后_退货退款_00016",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "数码配件",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，商品已拆封且没有质量问题时，通常不支持7天无理由退货。如您担心商品存在异常，也可以把具体情况发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "refund_opened_non_quality_precise"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_售后_退货退款_00017",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "护肤品",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，如果商品未拆封且不影响二次销售，一般支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "refund_unopened_precise"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_售后_退货退款_00018",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "护肤品",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，如果商品未拆封且不影响二次销售，一般支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "refund_unopened_precise"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_售后_退货退款_00019",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "食品",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，如果商品未拆封且不影响二次销售，一般支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "refund_unopened_precise"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_售后_退货退款_00020",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "食品",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，如果商品未拆封且不影响二次销售，一般支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "refund_unopened_precise"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_售后_退货退款_00021",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "家居用品",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，如果商品未拆封且不影响二次销售，一般支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "refund_unopened_precise"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_售后_退货退款_00022",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "家居用品",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，如果商品未拆封且不影响二次销售，一般支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "refund_unopened_precise"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_售后_退货退款_00023",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "数码配件",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，如果商品未拆封且不影响二次销售，一般支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "refund_unopened_precise"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_售后_退货退款_00024",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "数码配件",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，如果商品未拆封且不影响二次销售，一般支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "refund_unopened_precise"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_售后_换货补发_00025",
+    "category": "售后",
+    "subcategory": "换货补发",
+    "instruction": "用户问：可以换货吗？",
+    "input": {
+      "product_category": "护肤品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "neutral",
+      "platform_rule": "发错货或商品损坏时，可优先安排补发或换货，需先提交售后申请并等待审核。"
+    },
+    "output": "您好，如果商品存在质量问题，是可以申请换货的。请您先在订单页面提交售后申请并上传相关凭证，审核通过后我们会尽快为您安排后续处理。",
+    "policy_tags": [
+      "换货补发",
+      "先提交售后",
+      "quality_exchange_precise"
+    ],
+    "quality_label": "good",
+    "difficulty": "easy",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_售后_换货补发_00026",
+    "category": "售后",
+    "subcategory": "换货补发",
+    "instruction": "用户问：可以换货吗？",
+    "input": {
+      "product_category": "护肤品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "anxious",
+      "platform_rule": "发错货或商品损坏时，可优先安排补发或换货，需先提交售后申请并等待审核。"
+    },
+    "output": "您好，如果商品存在质量问题，是可以申请换货的。请您先在订单页面提交售后申请并上传相关凭证，审核通过后我们会尽快为您安排后续处理。",
+    "policy_tags": [
+      "换货补发",
+      "先提交售后",
+      "quality_exchange_precise"
+    ],
+    "quality_label": "good",
+    "difficulty": "easy",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_售后_换货补发_00027",
+    "category": "售后",
+    "subcategory": "换货补发",
+    "instruction": "用户问：可以换货吗？",
+    "input": {
+      "product_category": "食品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "neutral",
+      "platform_rule": "发错货或商品损坏时，可优先安排补发或换货，需先提交售后申请并等待审核。"
+    },
+    "output": "您好，如果商品存在质量问题，是可以申请换货的。请您先在订单页面提交售后申请并上传相关凭证，审核通过后我们会尽快为您安排后续处理。",
+    "policy_tags": [
+      "换货补发",
+      "先提交售后",
+      "quality_exchange_precise"
+    ],
+    "quality_label": "good",
+    "difficulty": "easy",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_售后_换货补发_00028",
+    "category": "售后",
+    "subcategory": "换货补发",
+    "instruction": "用户问：可以换货吗？",
+    "input": {
+      "product_category": "食品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "anxious",
+      "platform_rule": "发错货或商品损坏时，可优先安排补发或换货，需先提交售后申请并等待审核。"
+    },
+    "output": "您好，如果商品存在质量问题，是可以申请换货的。请您先在订单页面提交售后申请并上传相关凭证，审核通过后我们会尽快为您安排后续处理。",
+    "policy_tags": [
+      "换货补发",
+      "先提交售后",
+      "quality_exchange_precise"
+    ],
+    "quality_label": "good",
+    "difficulty": "easy",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_售后_换货补发_00029",
+    "category": "售后",
+    "subcategory": "换货补发",
+    "instruction": "用户问：可以换货吗？",
+    "input": {
+      "product_category": "家居用品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "neutral",
+      "platform_rule": "发错货或商品损坏时，可优先安排补发或换货，需先提交售后申请并等待审核。"
+    },
+    "output": "您好，如果商品存在质量问题，是可以申请换货的。请您先在订单页面提交售后申请并上传相关凭证，审核通过后我们会尽快为您安排后续处理。",
+    "policy_tags": [
+      "换货补发",
+      "先提交售后",
+      "quality_exchange_precise"
+    ],
+    "quality_label": "good",
+    "difficulty": "easy",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_售后_换货补发_00030",
+    "category": "售后",
+    "subcategory": "换货补发",
+    "instruction": "用户问：可以换货吗？",
+    "input": {
+      "product_category": "家居用品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "anxious",
+      "platform_rule": "发错货或商品损坏时，可优先安排补发或换货，需先提交售后申请并等待审核。"
+    },
+    "output": "您好，如果商品存在质量问题，是可以申请换货的。请您先在订单页面提交售后申请并上传相关凭证，审核通过后我们会尽快为您安排后续处理。",
+    "policy_tags": [
+      "换货补发",
+      "先提交售后",
+      "quality_exchange_precise"
+    ],
+    "quality_label": "good",
+    "difficulty": "easy",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_售后_换货补发_00031",
+    "category": "售后",
+    "subcategory": "换货补发",
+    "instruction": "用户问：可以换货吗？",
+    "input": {
+      "product_category": "数码配件",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "neutral",
+      "platform_rule": "发错货或商品损坏时，可优先安排补发或换货，需先提交售后申请并等待审核。"
+    },
+    "output": "您好，如果商品存在质量问题，是可以申请换货的。请您先在订单页面提交售后申请并上传相关凭证，审核通过后我们会尽快为您安排后续处理。",
+    "policy_tags": [
+      "换货补发",
+      "先提交售后",
+      "quality_exchange_precise"
+    ],
+    "quality_label": "good",
+    "difficulty": "easy",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_售后_换货补发_00032",
+    "category": "售后",
+    "subcategory": "换货补发",
+    "instruction": "用户问：可以换货吗？",
+    "input": {
+      "product_category": "数码配件",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "anxious",
+      "platform_rule": "发错货或商品损坏时，可优先安排补发或换货，需先提交售后申请并等待审核。"
+    },
+    "output": "您好，如果商品存在质量问题，是可以申请换货的。请您先在订单页面提交售后申请并上传相关凭证，审核通过后我们会尽快为您安排后续处理。",
+    "policy_tags": [
+      "换货补发",
+      "先提交售后",
+      "quality_exchange_precise"
+    ],
+    "quality_label": "good",
+    "difficulty": "easy",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_投诉_投诉安抚_00033",
+    "category": "投诉",
+    "subcategory": "投诉安抚",
+    "instruction": "用户问：我要投诉",
+    "input": {
+      "product_category": "家居用品",
+      "order_status": "待发货",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "投诉场景需先安抚情绪，再给出明确处理路径；不得承诺24小时反馈、短信电话通知、已安排专员或已重新寄送。"
+    },
+    "output": "非常抱歉给您带来了不好的体验。为了尽快帮您核实并跟进处理，麻烦您提供一下订单号和具体问题描述，我会立即为您反馈并持续跟进。",
+    "policy_tags": [
+      "投诉安抚",
+      "先安抚再处理",
+      "complaint_no_deadline_promise"
+    ],
+    "quality_label": "good",
+    "difficulty": "hard",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_投诉_投诉安抚_00034",
+    "category": "投诉",
+    "subcategory": "投诉安抚",
+    "instruction": "用户问：我要投诉",
+    "input": {
+      "product_category": "家居用品",
+      "order_status": "待发货",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "angry",
+      "platform_rule": "投诉场景需先安抚情绪，再给出明确处理路径；不得承诺24小时反馈、短信电话通知、已安排专员或已重新寄送。"
+    },
+    "output": "非常抱歉给您带来了不好的体验。为了尽快帮您核实并跟进处理，麻烦您提供一下订单号和具体问题描述，我会立即为您反馈并持续跟进。",
+    "policy_tags": [
+      "投诉安抚",
+      "先安抚再处理",
+      "complaint_no_deadline_promise"
+    ],
+    "quality_label": "good",
+    "difficulty": "hard",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_投诉_投诉安抚_00035",
+    "category": "投诉",
+    "subcategory": "投诉安抚",
+    "instruction": "用户问：我要投诉",
+    "input": {
+      "product_category": "食品",
+      "order_status": "待发货",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "投诉场景需先安抚情绪，再给出明确处理路径；不得承诺24小时反馈、短信电话通知、已安排专员或已重新寄送。"
+    },
+    "output": "非常抱歉给您带来了不好的体验。为了尽快帮您核实并跟进处理，麻烦您提供一下订单号和具体问题描述，我会立即为您反馈并持续跟进。",
+    "policy_tags": [
+      "投诉安抚",
+      "先安抚再处理",
+      "complaint_no_deadline_promise"
+    ],
+    "quality_label": "good",
+    "difficulty": "hard",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_投诉_投诉安抚_00036",
+    "category": "投诉",
+    "subcategory": "投诉安抚",
+    "instruction": "用户问：我要投诉",
+    "input": {
+      "product_category": "食品",
+      "order_status": "待发货",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "angry",
+      "platform_rule": "投诉场景需先安抚情绪，再给出明确处理路径；不得承诺24小时反馈、短信电话通知、已安排专员或已重新寄送。"
+    },
+    "output": "非常抱歉给您带来了不好的体验。为了尽快帮您核实并跟进处理，麻烦您提供一下订单号和具体问题描述，我会立即为您反馈并持续跟进。",
+    "policy_tags": [
+      "投诉安抚",
+      "先安抚再处理",
+      "complaint_no_deadline_promise"
+    ],
+    "quality_label": "good",
+    "difficulty": "hard",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_投诉_投诉安抚_00037",
+    "category": "投诉",
+    "subcategory": "投诉安抚",
+    "instruction": "用户问：我要投诉",
+    "input": {
+      "product_category": "母婴用品",
+      "order_status": "待发货",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "投诉场景需先安抚情绪，再给出明确处理路径；不得承诺24小时反馈、短信电话通知、已安排专员或已重新寄送。"
+    },
+    "output": "非常抱歉给您带来了不好的体验。为了尽快帮您核实并跟进处理，麻烦您提供一下订单号和具体问题描述，我会立即为您反馈并持续跟进。",
+    "policy_tags": [
+      "投诉安抚",
+      "先安抚再处理",
+      "complaint_no_deadline_promise"
+    ],
+    "quality_label": "good",
+    "difficulty": "hard",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_投诉_投诉安抚_00038",
+    "category": "投诉",
+    "subcategory": "投诉安抚",
+    "instruction": "用户问：我要投诉",
+    "input": {
+      "product_category": "母婴用品",
+      "order_status": "待发货",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "angry",
+      "platform_rule": "投诉场景需先安抚情绪，再给出明确处理路径；不得承诺24小时反馈、短信电话通知、已安排专员或已重新寄送。"
+    },
+    "output": "非常抱歉给您带来了不好的体验。为了尽快帮您核实并跟进处理，麻烦您提供一下订单号和具体问题描述，我会立即为您反馈并持续跟进。",
+    "policy_tags": [
+      "投诉安抚",
+      "先安抚再处理",
+      "complaint_no_deadline_promise"
+    ],
+    "quality_label": "good",
+    "difficulty": "hard",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_投诉_投诉安抚_00039",
+    "category": "投诉",
+    "subcategory": "投诉安抚",
+    "instruction": "用户问：我要投诉",
+    "input": {
+      "product_category": "家居用品",
+      "order_status": "运输中",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "投诉场景需先安抚情绪，再给出明确处理路径；不得承诺24小时反馈、短信电话通知、已安排专员或已重新寄送。"
+    },
+    "output": "非常抱歉给您带来了不好的体验。为了尽快帮您核实处理，麻烦您提供一下订单号和具体问题描述，我会先为您记录并继续跟进处理进度。",
+    "policy_tags": [
+      "投诉安抚",
+      "先安抚再处理",
+      "complaint_no_deadline_promise"
+    ],
+    "quality_label": "good",
+    "difficulty": "hard",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_投诉_投诉安抚_00040",
+    "category": "投诉",
+    "subcategory": "投诉安抚",
+    "instruction": "用户问：我要投诉",
+    "input": {
+      "product_category": "家居用品",
+      "order_status": "运输中",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "angry",
+      "platform_rule": "投诉场景需先安抚情绪，再给出明确处理路径；不得承诺24小时反馈、短信电话通知、已安排专员或已重新寄送。"
+    },
+    "output": "非常抱歉给您带来了不好的体验。为了尽快帮您核实处理，麻烦您提供一下订单号和具体问题描述，我会先为您记录并继续跟进处理进度。",
+    "policy_tags": [
+      "投诉安抚",
+      "先安抚再处理",
+      "complaint_no_deadline_promise"
+    ],
+    "quality_label": "good",
+    "difficulty": "hard",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_投诉_投诉安抚_00041",
+    "category": "投诉",
+    "subcategory": "投诉安抚",
+    "instruction": "用户问：我要投诉",
+    "input": {
+      "product_category": "食品",
+      "order_status": "运输中",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "投诉场景需先安抚情绪，再给出明确处理路径；不得承诺24小时反馈、短信电话通知、已安排专员或已重新寄送。"
+    },
+    "output": "非常抱歉给您带来了不好的体验。为了尽快帮您核实处理，麻烦您提供一下订单号和具体问题描述，我会先为您记录并继续跟进处理进度。",
+    "policy_tags": [
+      "投诉安抚",
+      "先安抚再处理",
+      "complaint_no_deadline_promise"
+    ],
+    "quality_label": "good",
+    "difficulty": "hard",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_投诉_投诉安抚_00042",
+    "category": "投诉",
+    "subcategory": "投诉安抚",
+    "instruction": "用户问：我要投诉",
+    "input": {
+      "product_category": "食品",
+      "order_status": "运输中",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "angry",
+      "platform_rule": "投诉场景需先安抚情绪，再给出明确处理路径；不得承诺24小时反馈、短信电话通知、已安排专员或已重新寄送。"
+    },
+    "output": "非常抱歉给您带来了不好的体验。为了尽快帮您核实处理，麻烦您提供一下订单号和具体问题描述，我会先为您记录并继续跟进处理进度。",
+    "policy_tags": [
+      "投诉安抚",
+      "先安抚再处理",
+      "complaint_no_deadline_promise"
+    ],
+    "quality_label": "good",
+    "difficulty": "hard",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_投诉_投诉安抚_00043",
+    "category": "投诉",
+    "subcategory": "投诉安抚",
+    "instruction": "用户问：我要投诉",
+    "input": {
+      "product_category": "母婴用品",
+      "order_status": "运输中",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "投诉场景需先安抚情绪，再给出明确处理路径；不得承诺24小时反馈、短信电话通知、已安排专员或已重新寄送。"
+    },
+    "output": "非常抱歉给您带来了不好的体验。为了尽快帮您核实处理，麻烦您提供一下订单号和具体问题描述，我会先为您记录并继续跟进处理进度。",
+    "policy_tags": [
+      "投诉安抚",
+      "先安抚再处理",
+      "complaint_no_deadline_promise"
+    ],
+    "quality_label": "good",
+    "difficulty": "hard",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_投诉_投诉安抚_00044",
+    "category": "投诉",
+    "subcategory": "投诉安抚",
+    "instruction": "用户问：我要投诉",
+    "input": {
+      "product_category": "母婴用品",
+      "order_status": "运输中",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "angry",
+      "platform_rule": "投诉场景需先安抚情绪，再给出明确处理路径；不得承诺24小时反馈、短信电话通知、已安排专员或已重新寄送。"
+    },
+    "output": "非常抱歉给您带来了不好的体验。为了尽快帮您核实处理，麻烦您提供一下订单号和具体问题描述，我会先为您记录并继续跟进处理进度。",
+    "policy_tags": [
+      "投诉安抚",
+      "先安抚再处理",
+      "complaint_no_deadline_promise"
+    ],
+    "quality_label": "good",
+    "difficulty": "hard",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_投诉_投诉安抚_00045",
+    "category": "投诉",
+    "subcategory": "投诉安抚",
+    "instruction": "用户问：质量太差了怎么办？",
+    "input": {
+      "product_category": "家居用品",
+      "order_status": "运输中",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "投诉场景需先安抚情绪，再给出明确处理路径；不得承诺24小时反馈、短信电话通知、已安排专员或已重新寄送。"
+    },
+    "output": "非常抱歉给您带来了不好的体验。商品目前还在运输途中，建议您收到后先检查。如果确认存在质量问题，您可以第一时间联系我们，我们会协助您处理退换货。",
+    "policy_tags": [
+      "投诉安抚",
+      "先安抚再处理",
+      "complaint_no_deadline_promise"
+    ],
+    "quality_label": "good",
+    "difficulty": "hard",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_投诉_投诉安抚_00046",
+    "category": "投诉",
+    "subcategory": "投诉安抚",
+    "instruction": "用户问：质量太差了怎么办？",
+    "input": {
+      "product_category": "家居用品",
+      "order_status": "运输中",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "angry",
+      "platform_rule": "投诉场景需先安抚情绪，再给出明确处理路径；不得承诺24小时反馈、短信电话通知、已安排专员或已重新寄送。"
+    },
+    "output": "非常抱歉给您带来了不好的体验。商品目前还在运输途中，建议您收到后先检查。如果确认存在质量问题，您可以第一时间联系我们，我们会协助您处理退换货。",
+    "policy_tags": [
+      "投诉安抚",
+      "先安抚再处理",
+      "complaint_no_deadline_promise"
+    ],
+    "quality_label": "good",
+    "difficulty": "hard",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_投诉_投诉安抚_00047",
+    "category": "投诉",
+    "subcategory": "投诉安抚",
+    "instruction": "用户问：质量太差了怎么办？",
+    "input": {
+      "product_category": "食品",
+      "order_status": "运输中",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "投诉场景需先安抚情绪，再给出明确处理路径；不得承诺24小时反馈、短信电话通知、已安排专员或已重新寄送。"
+    },
+    "output": "非常抱歉给您带来了不好的体验。商品目前还在运输途中，建议您收到后先检查。如果确认存在质量问题，您可以第一时间联系我们，我们会协助您处理退换货。",
+    "policy_tags": [
+      "投诉安抚",
+      "先安抚再处理",
+      "complaint_no_deadline_promise"
+    ],
+    "quality_label": "good",
+    "difficulty": "hard",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_投诉_投诉安抚_00048",
+    "category": "投诉",
+    "subcategory": "投诉安抚",
+    "instruction": "用户问：质量太差了怎么办？",
+    "input": {
+      "product_category": "食品",
+      "order_status": "运输中",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "angry",
+      "platform_rule": "投诉场景需先安抚情绪，再给出明确处理路径；不得承诺24小时反馈、短信电话通知、已安排专员或已重新寄送。"
+    },
+    "output": "非常抱歉给您带来了不好的体验。商品目前还在运输途中，建议您收到后先检查。如果确认存在质量问题，您可以第一时间联系我们，我们会协助您处理退换货。",
+    "policy_tags": [
+      "投诉安抚",
+      "先安抚再处理",
+      "complaint_no_deadline_promise"
+    ],
+    "quality_label": "good",
+    "difficulty": "hard",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_投诉_投诉安抚_00049",
+    "category": "投诉",
+    "subcategory": "投诉安抚",
+    "instruction": "用户问：质量太差了怎么办？",
+    "input": {
+      "product_category": "母婴用品",
+      "order_status": "运输中",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "投诉场景需先安抚情绪，再给出明确处理路径；不得承诺24小时反馈、短信电话通知、已安排专员或已重新寄送。"
+    },
+    "output": "非常抱歉给您带来了不好的体验。商品目前还在运输途中，建议您收到后先检查。如果确认存在质量问题，您可以第一时间联系我们，我们会协助您处理退换货。",
+    "policy_tags": [
+      "投诉安抚",
+      "先安抚再处理",
+      "complaint_no_deadline_promise"
+    ],
+    "quality_label": "good",
+    "difficulty": "hard",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_投诉_投诉安抚_00050",
+    "category": "投诉",
+    "subcategory": "投诉安抚",
+    "instruction": "用户问：质量太差了怎么办？",
+    "input": {
+      "product_category": "母婴用品",
+      "order_status": "运输中",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "angry",
+      "platform_rule": "投诉场景需先安抚情绪，再给出明确处理路径；不得承诺24小时反馈、短信电话通知、已安排专员或已重新寄送。"
+    },
+    "output": "非常抱歉给您带来了不好的体验。商品目前还在运输途中，建议您收到后先检查。如果确认存在质量问题，您可以第一时间联系我们，我们会协助您处理退换货。",
+    "policy_tags": [
+      "投诉安抚",
+      "先安抚再处理",
+      "complaint_no_deadline_promise"
+    ],
+    "quality_label": "good",
+    "difficulty": "hard",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_售后_换货补发_00051",
+    "category": "售后",
+    "subcategory": "换货补发",
+    "instruction": "用户问：商品坏了可以补发吗？",
+    "input": {
+      "product_category": "母婴用品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "neutral",
+      "platform_rule": "换货或补发通常需要用户先在订单页面提交售后申请，审核通过后再安排处理，不得承诺固定联系时限。"
+    },
+    "output": "您好，如果商品存在破损或质量问题，可以申请补发或换货。请您先在订单页面提交售后申请并上传相关凭证，审核通过后我们会尽快为您安排处理。",
+    "policy_tags": [
+      "换货补发",
+      "先提交售后",
+      "exchange_flow_precise"
+    ],
+    "quality_label": "good",
+    "difficulty": "easy",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_售后_换货补发_00052",
+    "category": "售后",
+    "subcategory": "换货补发",
+    "instruction": "用户问：商品坏了可以补发吗？",
+    "input": {
+      "product_category": "母婴用品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "anxious",
+      "platform_rule": "换货或补发通常需要用户先在订单页面提交售后申请，审核通过后再安排处理，不得承诺固定联系时限。"
+    },
+    "output": "您好，如果商品存在破损或质量问题，可以申请补发或换货。请您先在订单页面提交售后申请并上传相关凭证，审核通过后我们会尽快为您安排处理。",
+    "policy_tags": [
+      "换货补发",
+      "先提交售后",
+      "exchange_flow_precise"
+    ],
+    "quality_label": "good",
+    "difficulty": "easy",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_售后_换货补发_00053",
+    "category": "售后",
+    "subcategory": "换货补发",
+    "instruction": "用户问：商品坏了可以补发吗？",
+    "input": {
+      "product_category": "数码配件",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "neutral",
+      "platform_rule": "换货或补发通常需要用户先在订单页面提交售后申请，审核通过后再安排处理，不得承诺固定联系时限。"
+    },
+    "output": "您好，如果商品存在破损或质量问题，可以申请补发或换货。请您先在订单页面提交售后申请并上传相关凭证，审核通过后我们会尽快为您安排处理。",
+    "policy_tags": [
+      "换货补发",
+      "先提交售后",
+      "exchange_flow_precise"
+    ],
+    "quality_label": "good",
+    "difficulty": "easy",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_售后_换货补发_00054",
+    "category": "售后",
+    "subcategory": "换货补发",
+    "instruction": "用户问：商品坏了可以补发吗？",
+    "input": {
+      "product_category": "数码配件",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "anxious",
+      "platform_rule": "换货或补发通常需要用户先在订单页面提交售后申请，审核通过后再安排处理，不得承诺固定联系时限。"
+    },
+    "output": "您好，如果商品存在破损或质量问题，可以申请补发或换货。请您先在订单页面提交售后申请并上传相关凭证，审核通过后我们会尽快为您安排处理。",
+    "policy_tags": [
+      "换货补发",
+      "先提交售后",
+      "exchange_flow_precise"
+    ],
+    "quality_label": "good",
+    "difficulty": "easy",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_售后_换货补发_00055",
+    "category": "售后",
+    "subcategory": "换货补发",
+    "instruction": "用户问：商品坏了可以补发吗？",
+    "input": {
+      "product_category": "家居用品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "neutral",
+      "platform_rule": "换货或补发通常需要用户先在订单页面提交售后申请，审核通过后再安排处理，不得承诺固定联系时限。"
+    },
+    "output": "您好，如果商品存在破损或质量问题，可以申请补发或换货。请您先在订单页面提交售后申请并上传相关凭证，审核通过后我们会尽快为您安排处理。",
+    "policy_tags": [
+      "换货补发",
+      "先提交售后",
+      "exchange_flow_precise"
+    ],
+    "quality_label": "good",
+    "difficulty": "easy",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_售后_换货补发_00056",
+    "category": "售后",
+    "subcategory": "换货补发",
+    "instruction": "用户问：商品坏了可以补发吗？",
+    "input": {
+      "product_category": "家居用品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "anxious",
+      "platform_rule": "换货或补发通常需要用户先在订单页面提交售后申请，审核通过后再安排处理，不得承诺固定联系时限。"
+    },
+    "output": "您好，如果商品存在破损或质量问题，可以申请补发或换货。请您先在订单页面提交售后申请并上传相关凭证，审核通过后我们会尽快为您安排处理。",
+    "policy_tags": [
+      "换货补发",
+      "先提交售后",
+      "exchange_flow_precise"
+    ],
+    "quality_label": "good",
+    "difficulty": "easy",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_售后_换货补发_00057",
+    "category": "售后",
+    "subcategory": "换货补发",
+    "instruction": "用户问：可以换货吗？",
+    "input": {
+      "product_category": "母婴用品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "neutral",
+      "platform_rule": "换货或补发通常需要用户先在订单页面提交售后申请，审核通过后再安排处理，不得承诺固定联系时限。"
+    },
+    "output": "您好，可以申请换货的。请您先在订单页面提交售后换货申请，审核通过后我们会按流程为您安排后续处理，具体结果以审核为准。",
+    "policy_tags": [
+      "换货补发",
+      "先提交售后",
+      "exchange_flow_precise"
+    ],
+    "quality_label": "good",
+    "difficulty": "easy",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_售后_换货补发_00058",
+    "category": "售后",
+    "subcategory": "换货补发",
+    "instruction": "用户问：可以换货吗？",
+    "input": {
+      "product_category": "母婴用品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "anxious",
+      "platform_rule": "换货或补发通常需要用户先在订单页面提交售后申请，审核通过后再安排处理，不得承诺固定联系时限。"
+    },
+    "output": "您好，可以申请换货的。请您先在订单页面提交售后换货申请，审核通过后我们会按流程为您安排后续处理，具体结果以审核为准。",
+    "policy_tags": [
+      "换货补发",
+      "先提交售后",
+      "exchange_flow_precise"
+    ],
+    "quality_label": "good",
+    "difficulty": "easy",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_售后_换货补发_00059",
+    "category": "售后",
+    "subcategory": "换货补发",
+    "instruction": "用户问：可以换货吗？",
+    "input": {
+      "product_category": "数码配件",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "neutral",
+      "platform_rule": "换货或补发通常需要用户先在订单页面提交售后申请，审核通过后再安排处理，不得承诺固定联系时限。"
+    },
+    "output": "您好，可以申请换货的。请您先在订单页面提交售后换货申请，审核通过后我们会按流程为您安排后续处理，具体结果以审核为准。",
+    "policy_tags": [
+      "换货补发",
+      "先提交售后",
+      "exchange_flow_precise"
+    ],
+    "quality_label": "good",
+    "difficulty": "easy",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_售后_换货补发_00060",
+    "category": "售后",
+    "subcategory": "换货补发",
+    "instruction": "用户问：可以换货吗？",
+    "input": {
+      "product_category": "数码配件",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "anxious",
+      "platform_rule": "换货或补发通常需要用户先在订单页面提交售后申请，审核通过后再安排处理，不得承诺固定联系时限。"
+    },
+    "output": "您好，可以申请换货的。请您先在订单页面提交售后换货申请，审核通过后我们会按流程为您安排后续处理，具体结果以审核为准。",
+    "policy_tags": [
+      "换货补发",
+      "先提交售后",
+      "exchange_flow_precise"
+    ],
+    "quality_label": "good",
+    "difficulty": "easy",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_售后_换货补发_00061",
+    "category": "售后",
+    "subcategory": "换货补发",
+    "instruction": "用户问：可以换货吗？",
+    "input": {
+      "product_category": "家居用品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "neutral",
+      "platform_rule": "换货或补发通常需要用户先在订单页面提交售后申请，审核通过后再安排处理，不得承诺固定联系时限。"
+    },
+    "output": "您好，可以申请换货的。请您先在订单页面提交售后换货申请，审核通过后我们会按流程为您安排后续处理，具体结果以审核为准。",
+    "policy_tags": [
+      "换货补发",
+      "先提交售后",
+      "exchange_flow_precise"
+    ],
+    "quality_label": "good",
+    "difficulty": "easy",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "precision_售后_换货补发_00062",
+    "category": "售后",
+    "subcategory": "换货补发",
+    "instruction": "用户问：可以换货吗？",
+    "input": {
+      "product_category": "家居用品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "anxious",
+      "platform_rule": "换货或补发通常需要用户先在订单页面提交售后申请，审核通过后再安排处理，不得承诺固定联系时限。"
+    },
+    "output": "您好，可以申请换货的。请您先在订单页面提交售后换货申请，审核通过后我们会按流程为您安排后续处理，具体结果以审核为准。",
+    "policy_tags": [
+      "换货补发",
+      "先提交售后",
+      "exchange_flow_precise"
+    ],
+    "quality_label": "good",
+    "difficulty": "easy",
+    "source": "synthetic_targeted_precision",
+    "schema_version": "ecom_cs_schema_v1"
+  }
+]
