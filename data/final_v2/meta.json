@@ -1,0 +1,18 @@
+{
+  "base_dir": "data/final_clean",
+  "targeted_path": "data/targeted/overpromise_targeted_v1.json",
+  "output_dir": "data/final_v2",
+  "seed": 42,
+  "val_ratio": 0.1,
+  "counts": {
+    "base_train": 3312,
+    "base_val": 412,
+    "base_test": 306,
+    "targeted_total": 316,
+    "targeted_train": 285,
+    "targeted_val": 31,
+    "merged_train": 3597,
+    "merged_val": 443,
+    "merged_test": 306
+  }
+}
