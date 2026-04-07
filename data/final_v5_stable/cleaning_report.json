@@ -1,0 +1,36 @@
+{
+  "input_dir": "data/final_v4_clean",
+  "output_dir": "data/final_v5_stable",
+  "split_changes": {
+    "train": {
+      "normalized_generic_exchange_v2": 147,
+      "normalized_address_transit_v2": 439,
+      "normalized_damaged_exchange_v2": 264,
+      "normalized_wrong_item_exchange_v2": 147,
+      "normalized_urge_transit_v2": 66
+    },
+    "val": {
+      "normalized_generic_exchange_v2": 15,
+      "normalized_damaged_exchange_v2": 35,
+      "normalized_address_transit_v2": 48,
+      "normalized_wrong_item_exchange_v2": 18,
+      "normalized_urge_transit_v2": 7
+    },
+    "test": {
+      "normalized_urge_pending_v2": 24,
+      "normalized_urge_transit_v2": 28,
+      "normalized_wrong_item_exchange_v2": 15,
+      "normalized_generic_exchange_v2": 8,
+      "normalized_address_transit_v2": 35,
+      "normalized_damaged_exchange_v2": 27
+    }
+  },
+  "total_changes": {
+    "normalized_generic_exchange_v2": 170,
+    "normalized_address_transit_v2": 522,
+    "normalized_damaged_exchange_v2": 326,
+    "normalized_wrong_item_exchange_v2": 180,
+    "normalized_urge_transit_v2": 101,
+    "normalized_urge_pending_v2": 24
+  }
+}
