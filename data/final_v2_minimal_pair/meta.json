@@ -1,0 +1,18 @@
+{
+  "base_dir": "data/final_v2",
+  "targeted_path": "data/targeted/minimal_pair_targeted_v1.json",
+  "output_dir": "data/final_v2_minimal_pair",
+  "seed": 42,
+  "val_ratio": 0.1,
+  "counts": {
+    "base_train": 3596,
+    "base_val": 443,
+    "base_test": 306,
+    "targeted_total": 144,
+    "targeted_train": 130,
+    "targeted_val": 14,
+    "merged_train": 3726,
+    "merged_val": 457,
+    "merged_test": 306
+  }
+}

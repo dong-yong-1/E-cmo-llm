@@ -1,0 +1,3458 @@
+[
+  {
+    "id": "minimal_pair_售后_退货退款_00001",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "护肤品",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，护肤品在未拆封且不影响二次销售的情况下，支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "minimal_pair_unopened_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00002",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "护肤品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，护肤品在已拆封且无质量问题的情况下，通常不支持7天无理由退货。如果您有其他特殊情况，可以把订单号和具体诉求发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "minimal_pair_opened_non_quality_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00003",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "护肤品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "neutral",
+      "platform_rule": "商品存在质量问题时可申请退货退款，并由商家承担相关运费。"
+    },
+    "output": "您好，根据平台规则，如果护肤品存在质量问题，即使已经拆封，也是可以申请退货退款的。请您在订单页面提交售后申请并上传相关凭证，我们核实后会按流程处理，相关运费由商家承担。",
+    "policy_tags": [
+      "退货退款",
+      "质量问题可退",
+      "minimal_pair_quality_issue_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00004",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "护肤品",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，护肤品在未拆封且不影响二次销售的情况下，支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "minimal_pair_unopened_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00005",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "护肤品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，护肤品在已拆封且无质量问题的情况下，通常不支持7天无理由退货。如果您有其他特殊情况，可以把订单号和具体诉求发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "minimal_pair_opened_non_quality_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00006",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "护肤品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "anxious",
+      "platform_rule": "商品存在质量问题时可申请退货退款，并由商家承担相关运费。"
+    },
+    "output": "您好，根据平台规则，如果护肤品存在质量问题，即使已经拆封，也是可以申请退货退款的。请您在订单页面提交售后申请并上传相关凭证，我们核实后会按流程处理，相关运费由商家承担。",
+    "policy_tags": [
+      "退货退款",
+      "质量问题可退",
+      "minimal_pair_quality_issue_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00007",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "食品",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，食品在未拆封且不影响二次销售的情况下，支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "minimal_pair_unopened_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00008",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "食品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，食品在已拆封且无质量问题的情况下，通常不支持7天无理由退货。如果您有其他特殊情况，可以把订单号和具体诉求发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "minimal_pair_opened_non_quality_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00009",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "食品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "neutral",
+      "platform_rule": "商品存在质量问题时可申请退货退款，并由商家承担相关运费。"
+    },
+    "output": "您好，根据平台规则，如果食品存在质量问题，即使已经拆封，也是可以申请退货退款的。请您在订单页面提交售后申请并上传相关凭证，我们核实后会按流程处理，相关运费由商家承担。",
+    "policy_tags": [
+      "退货退款",
+      "质量问题可退",
+      "minimal_pair_quality_issue_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00010",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "食品",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，食品在未拆封且不影响二次销售的情况下，支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "minimal_pair_unopened_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00011",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "食品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，食品在已拆封且无质量问题的情况下，通常不支持7天无理由退货。如果您有其他特殊情况，可以把订单号和具体诉求发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "minimal_pair_opened_non_quality_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00012",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "食品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "anxious",
+      "platform_rule": "商品存在质量问题时可申请退货退款，并由商家承担相关运费。"
+    },
+    "output": "您好，根据平台规则，如果食品存在质量问题，即使已经拆封，也是可以申请退货退款的。请您在订单页面提交售后申请并上传相关凭证，我们核实后会按流程处理，相关运费由商家承担。",
+    "policy_tags": [
+      "退货退款",
+      "质量问题可退",
+      "minimal_pair_quality_issue_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00013",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "母婴用品",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，母婴用品在未拆封且不影响二次销售的情况下，支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "minimal_pair_unopened_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00014",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "母婴用品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，母婴用品在已拆封且无质量问题的情况下，通常不支持7天无理由退货。如果您有其他特殊情况，可以把订单号和具体诉求发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "minimal_pair_opened_non_quality_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00015",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "母婴用品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "neutral",
+      "platform_rule": "商品存在质量问题时可申请退货退款，并由商家承担相关运费。"
+    },
+    "output": "您好，根据平台规则，如果母婴用品存在质量问题，即使已经拆封，也是可以申请退货退款的。请您在订单页面提交售后申请并上传相关凭证，我们核实后会按流程处理，相关运费由商家承担。",
+    "policy_tags": [
+      "退货退款",
+      "质量问题可退",
+      "minimal_pair_quality_issue_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00016",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "母婴用品",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，母婴用品在未拆封且不影响二次销售的情况下，支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "minimal_pair_unopened_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00017",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "母婴用品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，母婴用品在已拆封且无质量问题的情况下，通常不支持7天无理由退货。如果您有其他特殊情况，可以把订单号和具体诉求发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "minimal_pair_opened_non_quality_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00018",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "母婴用品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "anxious",
+      "platform_rule": "商品存在质量问题时可申请退货退款，并由商家承担相关运费。"
+    },
+    "output": "您好，根据平台规则，如果母婴用品存在质量问题，即使已经拆封，也是可以申请退货退款的。请您在订单页面提交售后申请并上传相关凭证，我们核实后会按流程处理，相关运费由商家承担。",
+    "policy_tags": [
+      "退货退款",
+      "质量问题可退",
+      "minimal_pair_quality_issue_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00019",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "家居用品",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，家居用品在未拆封且不影响二次销售的情况下，支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "minimal_pair_unopened_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00020",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "家居用品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，家居用品在已拆封且无质量问题的情况下，通常不支持7天无理由退货。如果您有其他特殊情况，可以把订单号和具体诉求发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "minimal_pair_opened_non_quality_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00021",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "家居用品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "neutral",
+      "platform_rule": "商品存在质量问题时可申请退货退款，并由商家承担相关运费。"
+    },
+    "output": "您好，根据平台规则，如果家居用品存在质量问题，即使已经拆封，也是可以申请退货退款的。请您在订单页面提交售后申请并上传相关凭证，我们核实后会按流程处理，相关运费由商家承担。",
+    "policy_tags": [
+      "退货退款",
+      "质量问题可退",
+      "minimal_pair_quality_issue_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00022",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "家居用品",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，家居用品在未拆封且不影响二次销售的情况下，支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "minimal_pair_unopened_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00023",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "家居用品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，家居用品在已拆封且无质量问题的情况下，通常不支持7天无理由退货。如果您有其他特殊情况，可以把订单号和具体诉求发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "minimal_pair_opened_non_quality_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00024",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "家居用品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "anxious",
+      "platform_rule": "商品存在质量问题时可申请退货退款，并由商家承担相关运费。"
+    },
+    "output": "您好，根据平台规则，如果家居用品存在质量问题，即使已经拆封，也是可以申请退货退款的。请您在订单页面提交售后申请并上传相关凭证，我们核实后会按流程处理，相关运费由商家承担。",
+    "policy_tags": [
+      "退货退款",
+      "质量问题可退",
+      "minimal_pair_quality_issue_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00025",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "数码配件",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，数码配件在未拆封且不影响二次销售的情况下，支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "minimal_pair_unopened_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00026",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "数码配件",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，数码配件在已拆封且无质量问题的情况下，通常不支持7天无理由退货。如果您有其他特殊情况，可以把订单号和具体诉求发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "minimal_pair_opened_non_quality_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00027",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "数码配件",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "neutral",
+      "platform_rule": "商品存在质量问题时可申请退货退款，并由商家承担相关运费。"
+    },
+    "output": "您好，根据平台规则，如果数码配件存在质量问题，即使已经拆封，也是可以申请退货退款的。请您在订单页面提交售后申请并上传相关凭证，我们核实后会按流程处理，相关运费由商家承担。",
+    "policy_tags": [
+      "退货退款",
+      "质量问题可退",
+      "minimal_pair_quality_issue_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00028",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "数码配件",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，数码配件在未拆封且不影响二次销售的情况下，支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "minimal_pair_unopened_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00029",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "数码配件",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，数码配件在已拆封且无质量问题的情况下，通常不支持7天无理由退货。如果您有其他特殊情况，可以把订单号和具体诉求发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "minimal_pair_opened_non_quality_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00030",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "数码配件",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "anxious",
+      "platform_rule": "商品存在质量问题时可申请退货退款，并由商家承担相关运费。"
+    },
+    "output": "您好，根据平台规则，如果数码配件存在质量问题，即使已经拆封，也是可以申请退货退款的。请您在订单页面提交售后申请并上传相关凭证，我们核实后会按流程处理，相关运费由商家承担。",
+    "policy_tags": [
+      "退货退款",
+      "质量问题可退",
+      "minimal_pair_quality_issue_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00031",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "服饰",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，服饰在未拆封且不影响二次销售的情况下，支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "minimal_pair_unopened_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00032",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "服饰",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，服饰在已拆封且无质量问题的情况下，通常不支持7天无理由退货。如果您有其他特殊情况，可以把订单号和具体诉求发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "minimal_pair_opened_non_quality_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00033",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "服饰",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "neutral",
+      "platform_rule": "商品存在质量问题时可申请退货退款，并由商家承担相关运费。"
+    },
+    "output": "您好，根据平台规则，如果服饰存在质量问题，即使已经拆封，也是可以申请退货退款的。请您在订单页面提交售后申请并上传相关凭证，我们核实后会按流程处理，相关运费由商家承担。",
+    "policy_tags": [
+      "退货退款",
+      "质量问题可退",
+      "minimal_pair_quality_issue_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00034",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "服饰",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，服饰在未拆封且不影响二次销售的情况下，支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "minimal_pair_unopened_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00035",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "服饰",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，服饰在已拆封且无质量问题的情况下，通常不支持7天无理由退货。如果您有其他特殊情况，可以把订单号和具体诉求发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "minimal_pair_opened_non_quality_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00036",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：这个商品可以退吗？",
+    "input": {
+      "product_category": "服饰",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "anxious",
+      "platform_rule": "商品存在质量问题时可申请退货退款，并由商家承担相关运费。"
+    },
+    "output": "您好，根据平台规则，如果服饰存在质量问题，即使已经拆封，也是可以申请退货退款的。请您在订单页面提交售后申请并上传相关凭证，我们核实后会按流程处理，相关运费由商家承担。",
+    "policy_tags": [
+      "退货退款",
+      "质量问题可退",
+      "minimal_pair_quality_issue_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00037",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：不满意可以退款吗？",
+    "input": {
+      "product_category": "护肤品",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，护肤品在未拆封且不影响二次销售的情况下，支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "minimal_pair_unopened_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00038",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：不满意可以退款吗？",
+    "input": {
+      "product_category": "护肤品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，护肤品在已拆封且无质量问题的情况下，通常不支持7天无理由退货。如果您有其他特殊情况，可以把订单号和具体诉求发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "minimal_pair_opened_non_quality_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00039",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：不满意可以退款吗？",
+    "input": {
+      "product_category": "护肤品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "neutral",
+      "platform_rule": "商品存在质量问题时可申请退货退款，并由商家承担相关运费。"
+    },
+    "output": "您好，根据平台规则，如果护肤品存在质量问题，即使已经拆封，也是可以申请退货退款的。请您在订单页面提交售后申请并上传相关凭证，我们核实后会按流程处理，相关运费由商家承担。",
+    "policy_tags": [
+      "退货退款",
+      "质量问题可退",
+      "minimal_pair_quality_issue_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00040",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：不满意可以退款吗？",
+    "input": {
+      "product_category": "护肤品",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，护肤品在未拆封且不影响二次销售的情况下，支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "minimal_pair_unopened_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00041",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：不满意可以退款吗？",
+    "input": {
+      "product_category": "护肤品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，护肤品在已拆封且无质量问题的情况下，通常不支持7天无理由退货。如果您有其他特殊情况，可以把订单号和具体诉求发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "minimal_pair_opened_non_quality_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00042",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：不满意可以退款吗？",
+    "input": {
+      "product_category": "护肤品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "anxious",
+      "platform_rule": "商品存在质量问题时可申请退货退款，并由商家承担相关运费。"
+    },
+    "output": "您好，根据平台规则，如果护肤品存在质量问题，即使已经拆封，也是可以申请退货退款的。请您在订单页面提交售后申请并上传相关凭证，我们核实后会按流程处理，相关运费由商家承担。",
+    "policy_tags": [
+      "退货退款",
+      "质量问题可退",
+      "minimal_pair_quality_issue_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00043",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：不满意可以退款吗？",
+    "input": {
+      "product_category": "食品",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，食品在未拆封且不影响二次销售的情况下，支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "minimal_pair_unopened_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00044",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：不满意可以退款吗？",
+    "input": {
+      "product_category": "食品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，食品在已拆封且无质量问题的情况下，通常不支持7天无理由退货。如果您有其他特殊情况，可以把订单号和具体诉求发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "minimal_pair_opened_non_quality_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00045",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：不满意可以退款吗？",
+    "input": {
+      "product_category": "食品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "neutral",
+      "platform_rule": "商品存在质量问题时可申请退货退款，并由商家承担相关运费。"
+    },
+    "output": "您好，根据平台规则，如果食品存在质量问题，即使已经拆封，也是可以申请退货退款的。请您在订单页面提交售后申请并上传相关凭证，我们核实后会按流程处理，相关运费由商家承担。",
+    "policy_tags": [
+      "退货退款",
+      "质量问题可退",
+      "minimal_pair_quality_issue_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00046",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：不满意可以退款吗？",
+    "input": {
+      "product_category": "食品",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，食品在未拆封且不影响二次销售的情况下，支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "minimal_pair_unopened_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00047",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：不满意可以退款吗？",
+    "input": {
+      "product_category": "食品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，食品在已拆封且无质量问题的情况下，通常不支持7天无理由退货。如果您有其他特殊情况，可以把订单号和具体诉求发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "minimal_pair_opened_non_quality_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00048",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：不满意可以退款吗？",
+    "input": {
+      "product_category": "食品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "anxious",
+      "platform_rule": "商品存在质量问题时可申请退货退款，并由商家承担相关运费。"
+    },
+    "output": "您好，根据平台规则，如果食品存在质量问题，即使已经拆封，也是可以申请退货退款的。请您在订单页面提交售后申请并上传相关凭证，我们核实后会按流程处理，相关运费由商家承担。",
+    "policy_tags": [
+      "退货退款",
+      "质量问题可退",
+      "minimal_pair_quality_issue_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00049",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：不满意可以退款吗？",
+    "input": {
+      "product_category": "母婴用品",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，母婴用品在未拆封且不影响二次销售的情况下，支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "minimal_pair_unopened_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00050",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：不满意可以退款吗？",
+    "input": {
+      "product_category": "母婴用品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，母婴用品在已拆封且无质量问题的情况下，通常不支持7天无理由退货。如果您有其他特殊情况，可以把订单号和具体诉求发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "minimal_pair_opened_non_quality_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00051",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：不满意可以退款吗？",
+    "input": {
+      "product_category": "母婴用品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "neutral",
+      "platform_rule": "商品存在质量问题时可申请退货退款，并由商家承担相关运费。"
+    },
+    "output": "您好，根据平台规则，如果母婴用品存在质量问题，即使已经拆封，也是可以申请退货退款的。请您在订单页面提交售后申请并上传相关凭证，我们核实后会按流程处理，相关运费由商家承担。",
+    "policy_tags": [
+      "退货退款",
+      "质量问题可退",
+      "minimal_pair_quality_issue_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00052",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：不满意可以退款吗？",
+    "input": {
+      "product_category": "母婴用品",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，母婴用品在未拆封且不影响二次销售的情况下，支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "minimal_pair_unopened_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00053",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：不满意可以退款吗？",
+    "input": {
+      "product_category": "母婴用品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，母婴用品在已拆封且无质量问题的情况下，通常不支持7天无理由退货。如果您有其他特殊情况，可以把订单号和具体诉求发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "minimal_pair_opened_non_quality_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00054",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：不满意可以退款吗？",
+    "input": {
+      "product_category": "母婴用品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "anxious",
+      "platform_rule": "商品存在质量问题时可申请退货退款，并由商家承担相关运费。"
+    },
+    "output": "您好，根据平台规则，如果母婴用品存在质量问题，即使已经拆封，也是可以申请退货退款的。请您在订单页面提交售后申请并上传相关凭证，我们核实后会按流程处理，相关运费由商家承担。",
+    "policy_tags": [
+      "退货退款",
+      "质量问题可退",
+      "minimal_pair_quality_issue_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00055",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：不满意可以退款吗？",
+    "input": {
+      "product_category": "家居用品",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，家居用品在未拆封且不影响二次销售的情况下，支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "minimal_pair_unopened_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00056",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：不满意可以退款吗？",
+    "input": {
+      "product_category": "家居用品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，家居用品在已拆封且无质量问题的情况下，通常不支持7天无理由退货。如果您有其他特殊情况，可以把订单号和具体诉求发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "minimal_pair_opened_non_quality_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00057",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：不满意可以退款吗？",
+    "input": {
+      "product_category": "家居用品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "neutral",
+      "platform_rule": "商品存在质量问题时可申请退货退款，并由商家承担相关运费。"
+    },
+    "output": "您好，根据平台规则，如果家居用品存在质量问题，即使已经拆封，也是可以申请退货退款的。请您在订单页面提交售后申请并上传相关凭证，我们核实后会按流程处理，相关运费由商家承担。",
+    "policy_tags": [
+      "退货退款",
+      "质量问题可退",
+      "minimal_pair_quality_issue_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00058",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：不满意可以退款吗？",
+    "input": {
+      "product_category": "家居用品",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，家居用品在未拆封且不影响二次销售的情况下，支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "minimal_pair_unopened_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00059",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：不满意可以退款吗？",
+    "input": {
+      "product_category": "家居用品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，家居用品在已拆封且无质量问题的情况下，通常不支持7天无理由退货。如果您有其他特殊情况，可以把订单号和具体诉求发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "minimal_pair_opened_non_quality_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00060",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：不满意可以退款吗？",
+    "input": {
+      "product_category": "家居用品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "anxious",
+      "platform_rule": "商品存在质量问题时可申请退货退款，并由商家承担相关运费。"
+    },
+    "output": "您好，根据平台规则，如果家居用品存在质量问题，即使已经拆封，也是可以申请退货退款的。请您在订单页面提交售后申请并上传相关凭证，我们核实后会按流程处理，相关运费由商家承担。",
+    "policy_tags": [
+      "退货退款",
+      "质量问题可退",
+      "minimal_pair_quality_issue_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00061",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：不满意可以退款吗？",
+    "input": {
+      "product_category": "数码配件",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，数码配件在未拆封且不影响二次销售的情况下，支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "minimal_pair_unopened_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00062",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：不满意可以退款吗？",
+    "input": {
+      "product_category": "数码配件",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，数码配件在已拆封且无质量问题的情况下，通常不支持7天无理由退货。如果您有其他特殊情况，可以把订单号和具体诉求发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "minimal_pair_opened_non_quality_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00063",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：不满意可以退款吗？",
+    "input": {
+      "product_category": "数码配件",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "neutral",
+      "platform_rule": "商品存在质量问题时可申请退货退款，并由商家承担相关运费。"
+    },
+    "output": "您好，根据平台规则，如果数码配件存在质量问题，即使已经拆封，也是可以申请退货退款的。请您在订单页面提交售后申请并上传相关凭证，我们核实后会按流程处理，相关运费由商家承担。",
+    "policy_tags": [
+      "退货退款",
+      "质量问题可退",
+      "minimal_pair_quality_issue_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00064",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：不满意可以退款吗？",
+    "input": {
+      "product_category": "数码配件",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，数码配件在未拆封且不影响二次销售的情况下，支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "minimal_pair_unopened_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00065",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：不满意可以退款吗？",
+    "input": {
+      "product_category": "数码配件",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，数码配件在已拆封且无质量问题的情况下，通常不支持7天无理由退货。如果您有其他特殊情况，可以把订单号和具体诉求发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "minimal_pair_opened_non_quality_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00066",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：不满意可以退款吗？",
+    "input": {
+      "product_category": "数码配件",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "anxious",
+      "platform_rule": "商品存在质量问题时可申请退货退款，并由商家承担相关运费。"
+    },
+    "output": "您好，根据平台规则，如果数码配件存在质量问题，即使已经拆封，也是可以申请退货退款的。请您在订单页面提交售后申请并上传相关凭证，我们核实后会按流程处理，相关运费由商家承担。",
+    "policy_tags": [
+      "退货退款",
+      "质量问题可退",
+      "minimal_pair_quality_issue_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00067",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：不满意可以退款吗？",
+    "input": {
+      "product_category": "服饰",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，服饰在未拆封且不影响二次销售的情况下，支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "minimal_pair_unopened_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00068",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：不满意可以退款吗？",
+    "input": {
+      "product_category": "服饰",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，服饰在已拆封且无质量问题的情况下，通常不支持7天无理由退货。如果您有其他特殊情况，可以把订单号和具体诉求发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "minimal_pair_opened_non_quality_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00069",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：不满意可以退款吗？",
+    "input": {
+      "product_category": "服饰",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "neutral",
+      "platform_rule": "商品存在质量问题时可申请退货退款，并由商家承担相关运费。"
+    },
+    "output": "您好，根据平台规则，如果服饰存在质量问题，即使已经拆封，也是可以申请退货退款的。请您在订单页面提交售后申请并上传相关凭证，我们核实后会按流程处理，相关运费由商家承担。",
+    "policy_tags": [
+      "退货退款",
+      "质量问题可退",
+      "minimal_pair_quality_issue_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00070",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：不满意可以退款吗？",
+    "input": {
+      "product_category": "服饰",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，服饰在未拆封且不影响二次销售的情况下，支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "minimal_pair_unopened_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00071",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：不满意可以退款吗？",
+    "input": {
+      "product_category": "服饰",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，服饰在已拆封且无质量问题的情况下，通常不支持7天无理由退货。如果您有其他特殊情况，可以把订单号和具体诉求发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "minimal_pair_opened_non_quality_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00072",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：不满意可以退款吗？",
+    "input": {
+      "product_category": "服饰",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "anxious",
+      "platform_rule": "商品存在质量问题时可申请退货退款，并由商家承担相关运费。"
+    },
+    "output": "您好，根据平台规则，如果服饰存在质量问题，即使已经拆封，也是可以申请退货退款的。请您在订单页面提交售后申请并上传相关凭证，我们核实后会按流程处理，相关运费由商家承担。",
+    "policy_tags": [
+      "退货退款",
+      "质量问题可退",
+      "minimal_pair_quality_issue_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00073",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：可以退货吗？",
+    "input": {
+      "product_category": "护肤品",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，护肤品在未拆封且不影响二次销售的情况下，支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "minimal_pair_unopened_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00074",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：可以退货吗？",
+    "input": {
+      "product_category": "护肤品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，护肤品在已拆封且无质量问题的情况下，通常不支持7天无理由退货。如果您有其他特殊情况，可以把订单号和具体诉求发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "minimal_pair_opened_non_quality_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00075",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：可以退货吗？",
+    "input": {
+      "product_category": "护肤品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "neutral",
+      "platform_rule": "商品存在质量问题时可申请退货退款，并由商家承担相关运费。"
+    },
+    "output": "您好，根据平台规则，如果护肤品存在质量问题，即使已经拆封，也是可以申请退货退款的。请您在订单页面提交售后申请并上传相关凭证，我们核实后会按流程处理，相关运费由商家承担。",
+    "policy_tags": [
+      "退货退款",
+      "质量问题可退",
+      "minimal_pair_quality_issue_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00076",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：可以退货吗？",
+    "input": {
+      "product_category": "护肤品",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，护肤品在未拆封且不影响二次销售的情况下，支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "minimal_pair_unopened_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00077",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：可以退货吗？",
+    "input": {
+      "product_category": "护肤品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，护肤品在已拆封且无质量问题的情况下，通常不支持7天无理由退货。如果您有其他特殊情况，可以把订单号和具体诉求发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "minimal_pair_opened_non_quality_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00078",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：可以退货吗？",
+    "input": {
+      "product_category": "护肤品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "anxious",
+      "platform_rule": "商品存在质量问题时可申请退货退款，并由商家承担相关运费。"
+    },
+    "output": "您好，根据平台规则，如果护肤品存在质量问题，即使已经拆封，也是可以申请退货退款的。请您在订单页面提交售后申请并上传相关凭证，我们核实后会按流程处理，相关运费由商家承担。",
+    "policy_tags": [
+      "退货退款",
+      "质量问题可退",
+      "minimal_pair_quality_issue_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00079",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：可以退货吗？",
+    "input": {
+      "product_category": "食品",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，食品在未拆封且不影响二次销售的情况下，支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "minimal_pair_unopened_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00080",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：可以退货吗？",
+    "input": {
+      "product_category": "食品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，食品在已拆封且无质量问题的情况下，通常不支持7天无理由退货。如果您有其他特殊情况，可以把订单号和具体诉求发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "minimal_pair_opened_non_quality_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00081",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：可以退货吗？",
+    "input": {
+      "product_category": "食品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "neutral",
+      "platform_rule": "商品存在质量问题时可申请退货退款，并由商家承担相关运费。"
+    },
+    "output": "您好，根据平台规则，如果食品存在质量问题，即使已经拆封，也是可以申请退货退款的。请您在订单页面提交售后申请并上传相关凭证，我们核实后会按流程处理，相关运费由商家承担。",
+    "policy_tags": [
+      "退货退款",
+      "质量问题可退",
+      "minimal_pair_quality_issue_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00082",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：可以退货吗？",
+    "input": {
+      "product_category": "食品",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，食品在未拆封且不影响二次销售的情况下，支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "minimal_pair_unopened_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00083",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：可以退货吗？",
+    "input": {
+      "product_category": "食品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，食品在已拆封且无质量问题的情况下，通常不支持7天无理由退货。如果您有其他特殊情况，可以把订单号和具体诉求发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "minimal_pair_opened_non_quality_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00084",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：可以退货吗？",
+    "input": {
+      "product_category": "食品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "anxious",
+      "platform_rule": "商品存在质量问题时可申请退货退款，并由商家承担相关运费。"
+    },
+    "output": "您好，根据平台规则，如果食品存在质量问题，即使已经拆封，也是可以申请退货退款的。请您在订单页面提交售后申请并上传相关凭证，我们核实后会按流程处理，相关运费由商家承担。",
+    "policy_tags": [
+      "退货退款",
+      "质量问题可退",
+      "minimal_pair_quality_issue_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00085",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：可以退货吗？",
+    "input": {
+      "product_category": "母婴用品",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，母婴用品在未拆封且不影响二次销售的情况下，支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "minimal_pair_unopened_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00086",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：可以退货吗？",
+    "input": {
+      "product_category": "母婴用品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，母婴用品在已拆封且无质量问题的情况下，通常不支持7天无理由退货。如果您有其他特殊情况，可以把订单号和具体诉求发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "minimal_pair_opened_non_quality_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00087",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：可以退货吗？",
+    "input": {
+      "product_category": "母婴用品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "neutral",
+      "platform_rule": "商品存在质量问题时可申请退货退款，并由商家承担相关运费。"
+    },
+    "output": "您好，根据平台规则，如果母婴用品存在质量问题，即使已经拆封，也是可以申请退货退款的。请您在订单页面提交售后申请并上传相关凭证，我们核实后会按流程处理，相关运费由商家承担。",
+    "policy_tags": [
+      "退货退款",
+      "质量问题可退",
+      "minimal_pair_quality_issue_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00088",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：可以退货吗？",
+    "input": {
+      "product_category": "母婴用品",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，母婴用品在未拆封且不影响二次销售的情况下，支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "minimal_pair_unopened_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00089",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：可以退货吗？",
+    "input": {
+      "product_category": "母婴用品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，母婴用品在已拆封且无质量问题的情况下，通常不支持7天无理由退货。如果您有其他特殊情况，可以把订单号和具体诉求发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "minimal_pair_opened_non_quality_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00090",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：可以退货吗？",
+    "input": {
+      "product_category": "母婴用品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "anxious",
+      "platform_rule": "商品存在质量问题时可申请退货退款，并由商家承担相关运费。"
+    },
+    "output": "您好，根据平台规则，如果母婴用品存在质量问题，即使已经拆封，也是可以申请退货退款的。请您在订单页面提交售后申请并上传相关凭证，我们核实后会按流程处理，相关运费由商家承担。",
+    "policy_tags": [
+      "退货退款",
+      "质量问题可退",
+      "minimal_pair_quality_issue_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00091",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：可以退货吗？",
+    "input": {
+      "product_category": "家居用品",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，家居用品在未拆封且不影响二次销售的情况下，支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "minimal_pair_unopened_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00092",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：可以退货吗？",
+    "input": {
+      "product_category": "家居用品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，家居用品在已拆封且无质量问题的情况下，通常不支持7天无理由退货。如果您有其他特殊情况，可以把订单号和具体诉求发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "minimal_pair_opened_non_quality_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00093",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：可以退货吗？",
+    "input": {
+      "product_category": "家居用品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "neutral",
+      "platform_rule": "商品存在质量问题时可申请退货退款，并由商家承担相关运费。"
+    },
+    "output": "您好，根据平台规则，如果家居用品存在质量问题，即使已经拆封，也是可以申请退货退款的。请您在订单页面提交售后申请并上传相关凭证，我们核实后会按流程处理，相关运费由商家承担。",
+    "policy_tags": [
+      "退货退款",
+      "质量问题可退",
+      "minimal_pair_quality_issue_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00094",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：可以退货吗？",
+    "input": {
+      "product_category": "家居用品",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，家居用品在未拆封且不影响二次销售的情况下，支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "minimal_pair_unopened_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00095",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：可以退货吗？",
+    "input": {
+      "product_category": "家居用品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，家居用品在已拆封且无质量问题的情况下，通常不支持7天无理由退货。如果您有其他特殊情况，可以把订单号和具体诉求发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "minimal_pair_opened_non_quality_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00096",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：可以退货吗？",
+    "input": {
+      "product_category": "家居用品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "anxious",
+      "platform_rule": "商品存在质量问题时可申请退货退款，并由商家承担相关运费。"
+    },
+    "output": "您好，根据平台规则，如果家居用品存在质量问题，即使已经拆封，也是可以申请退货退款的。请您在订单页面提交售后申请并上传相关凭证，我们核实后会按流程处理，相关运费由商家承担。",
+    "policy_tags": [
+      "退货退款",
+      "质量问题可退",
+      "minimal_pair_quality_issue_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00097",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：可以退货吗？",
+    "input": {
+      "product_category": "数码配件",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，数码配件在未拆封且不影响二次销售的情况下，支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "minimal_pair_unopened_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00098",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：可以退货吗？",
+    "input": {
+      "product_category": "数码配件",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，数码配件在已拆封且无质量问题的情况下，通常不支持7天无理由退货。如果您有其他特殊情况，可以把订单号和具体诉求发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "minimal_pair_opened_non_quality_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00099",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：可以退货吗？",
+    "input": {
+      "product_category": "数码配件",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "neutral",
+      "platform_rule": "商品存在质量问题时可申请退货退款，并由商家承担相关运费。"
+    },
+    "output": "您好，根据平台规则，如果数码配件存在质量问题，即使已经拆封，也是可以申请退货退款的。请您在订单页面提交售后申请并上传相关凭证，我们核实后会按流程处理，相关运费由商家承担。",
+    "policy_tags": [
+      "退货退款",
+      "质量问题可退",
+      "minimal_pair_quality_issue_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00100",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：可以退货吗？",
+    "input": {
+      "product_category": "数码配件",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，数码配件在未拆封且不影响二次销售的情况下，支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "minimal_pair_unopened_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00101",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：可以退货吗？",
+    "input": {
+      "product_category": "数码配件",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，数码配件在已拆封且无质量问题的情况下，通常不支持7天无理由退货。如果您有其他特殊情况，可以把订单号和具体诉求发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "minimal_pair_opened_non_quality_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00102",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：可以退货吗？",
+    "input": {
+      "product_category": "数码配件",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "anxious",
+      "platform_rule": "商品存在质量问题时可申请退货退款，并由商家承担相关运费。"
+    },
+    "output": "您好，根据平台规则，如果数码配件存在质量问题，即使已经拆封，也是可以申请退货退款的。请您在订单页面提交售后申请并上传相关凭证，我们核实后会按流程处理，相关运费由商家承担。",
+    "policy_tags": [
+      "退货退款",
+      "质量问题可退",
+      "minimal_pair_quality_issue_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00103",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：可以退货吗？",
+    "input": {
+      "product_category": "服饰",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，服饰在未拆封且不影响二次销售的情况下，支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "minimal_pair_unopened_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00104",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：可以退货吗？",
+    "input": {
+      "product_category": "服饰",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，服饰在已拆封且无质量问题的情况下，通常不支持7天无理由退货。如果您有其他特殊情况，可以把订单号和具体诉求发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "minimal_pair_opened_non_quality_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00105",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：可以退货吗？",
+    "input": {
+      "product_category": "服饰",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "neutral",
+      "platform_rule": "商品存在质量问题时可申请退货退款，并由商家承担相关运费。"
+    },
+    "output": "您好，根据平台规则，如果服饰存在质量问题，即使已经拆封，也是可以申请退货退款的。请您在订单页面提交售后申请并上传相关凭证，我们核实后会按流程处理，相关运费由商家承担。",
+    "policy_tags": [
+      "退货退款",
+      "质量问题可退",
+      "minimal_pair_quality_issue_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00106",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：可以退货吗？",
+    "input": {
+      "product_category": "服饰",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，服饰在未拆封且不影响二次销售的情况下，支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "minimal_pair_unopened_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00107",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：可以退货吗？",
+    "input": {
+      "product_category": "服饰",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，服饰在已拆封且无质量问题的情况下，通常不支持7天无理由退货。如果您有其他特殊情况，可以把订单号和具体诉求发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "minimal_pair_opened_non_quality_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00108",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：可以退货吗？",
+    "input": {
+      "product_category": "服饰",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "anxious",
+      "platform_rule": "商品存在质量问题时可申请退货退款，并由商家承担相关运费。"
+    },
+    "output": "您好，根据平台规则，如果服饰存在质量问题，即使已经拆封，也是可以申请退货退款的。请您在订单页面提交售后申请并上传相关凭证，我们核实后会按流程处理，相关运费由商家承担。",
+    "policy_tags": [
+      "退货退款",
+      "质量问题可退",
+      "minimal_pair_quality_issue_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00109",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：能退款吗？",
+    "input": {
+      "product_category": "护肤品",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，护肤品在未拆封且不影响二次销售的情况下，支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "minimal_pair_unopened_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00110",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：能退款吗？",
+    "input": {
+      "product_category": "护肤品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，护肤品在已拆封且无质量问题的情况下，通常不支持7天无理由退货。如果您有其他特殊情况，可以把订单号和具体诉求发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "minimal_pair_opened_non_quality_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00111",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：能退款吗？",
+    "input": {
+      "product_category": "护肤品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "neutral",
+      "platform_rule": "商品存在质量问题时可申请退货退款，并由商家承担相关运费。"
+    },
+    "output": "您好，根据平台规则，如果护肤品存在质量问题，即使已经拆封，也是可以申请退货退款的。请您在订单页面提交售后申请并上传相关凭证，我们核实后会按流程处理，相关运费由商家承担。",
+    "policy_tags": [
+      "退货退款",
+      "质量问题可退",
+      "minimal_pair_quality_issue_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00112",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：能退款吗？",
+    "input": {
+      "product_category": "护肤品",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，护肤品在未拆封且不影响二次销售的情况下，支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "minimal_pair_unopened_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00113",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：能退款吗？",
+    "input": {
+      "product_category": "护肤品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，护肤品在已拆封且无质量问题的情况下，通常不支持7天无理由退货。如果您有其他特殊情况，可以把订单号和具体诉求发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "minimal_pair_opened_non_quality_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00114",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：能退款吗？",
+    "input": {
+      "product_category": "护肤品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "anxious",
+      "platform_rule": "商品存在质量问题时可申请退货退款，并由商家承担相关运费。"
+    },
+    "output": "您好，根据平台规则，如果护肤品存在质量问题，即使已经拆封，也是可以申请退货退款的。请您在订单页面提交售后申请并上传相关凭证，我们核实后会按流程处理，相关运费由商家承担。",
+    "policy_tags": [
+      "退货退款",
+      "质量问题可退",
+      "minimal_pair_quality_issue_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00115",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：能退款吗？",
+    "input": {
+      "product_category": "食品",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，食品在未拆封且不影响二次销售的情况下，支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "minimal_pair_unopened_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00116",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：能退款吗？",
+    "input": {
+      "product_category": "食品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，食品在已拆封且无质量问题的情况下，通常不支持7天无理由退货。如果您有其他特殊情况，可以把订单号和具体诉求发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "minimal_pair_opened_non_quality_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00117",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：能退款吗？",
+    "input": {
+      "product_category": "食品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "neutral",
+      "platform_rule": "商品存在质量问题时可申请退货退款，并由商家承担相关运费。"
+    },
+    "output": "您好，根据平台规则，如果食品存在质量问题，即使已经拆封，也是可以申请退货退款的。请您在订单页面提交售后申请并上传相关凭证，我们核实后会按流程处理，相关运费由商家承担。",
+    "policy_tags": [
+      "退货退款",
+      "质量问题可退",
+      "minimal_pair_quality_issue_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00118",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：能退款吗？",
+    "input": {
+      "product_category": "食品",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，食品在未拆封且不影响二次销售的情况下，支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "minimal_pair_unopened_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00119",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：能退款吗？",
+    "input": {
+      "product_category": "食品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，食品在已拆封且无质量问题的情况下，通常不支持7天无理由退货。如果您有其他特殊情况，可以把订单号和具体诉求发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "minimal_pair_opened_non_quality_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00120",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：能退款吗？",
+    "input": {
+      "product_category": "食品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "anxious",
+      "platform_rule": "商品存在质量问题时可申请退货退款，并由商家承担相关运费。"
+    },
+    "output": "您好，根据平台规则，如果食品存在质量问题，即使已经拆封，也是可以申请退货退款的。请您在订单页面提交售后申请并上传相关凭证，我们核实后会按流程处理，相关运费由商家承担。",
+    "policy_tags": [
+      "退货退款",
+      "质量问题可退",
+      "minimal_pair_quality_issue_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00121",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：能退款吗？",
+    "input": {
+      "product_category": "母婴用品",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，母婴用品在未拆封且不影响二次销售的情况下，支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "minimal_pair_unopened_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00122",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：能退款吗？",
+    "input": {
+      "product_category": "母婴用品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，母婴用品在已拆封且无质量问题的情况下，通常不支持7天无理由退货。如果您有其他特殊情况，可以把订单号和具体诉求发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "minimal_pair_opened_non_quality_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00123",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：能退款吗？",
+    "input": {
+      "product_category": "母婴用品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "neutral",
+      "platform_rule": "商品存在质量问题时可申请退货退款，并由商家承担相关运费。"
+    },
+    "output": "您好，根据平台规则，如果母婴用品存在质量问题，即使已经拆封，也是可以申请退货退款的。请您在订单页面提交售后申请并上传相关凭证，我们核实后会按流程处理，相关运费由商家承担。",
+    "policy_tags": [
+      "退货退款",
+      "质量问题可退",
+      "minimal_pair_quality_issue_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00124",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：能退款吗？",
+    "input": {
+      "product_category": "母婴用品",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，母婴用品在未拆封且不影响二次销售的情况下，支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "minimal_pair_unopened_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00125",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：能退款吗？",
+    "input": {
+      "product_category": "母婴用品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，母婴用品在已拆封且无质量问题的情况下，通常不支持7天无理由退货。如果您有其他特殊情况，可以把订单号和具体诉求发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "minimal_pair_opened_non_quality_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00126",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：能退款吗？",
+    "input": {
+      "product_category": "母婴用品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "anxious",
+      "platform_rule": "商品存在质量问题时可申请退货退款，并由商家承担相关运费。"
+    },
+    "output": "您好，根据平台规则，如果母婴用品存在质量问题，即使已经拆封，也是可以申请退货退款的。请您在订单页面提交售后申请并上传相关凭证，我们核实后会按流程处理，相关运费由商家承担。",
+    "policy_tags": [
+      "退货退款",
+      "质量问题可退",
+      "minimal_pair_quality_issue_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00127",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：能退款吗？",
+    "input": {
+      "product_category": "家居用品",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，家居用品在未拆封且不影响二次销售的情况下，支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "minimal_pair_unopened_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00128",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：能退款吗？",
+    "input": {
+      "product_category": "家居用品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，家居用品在已拆封且无质量问题的情况下，通常不支持7天无理由退货。如果您有其他特殊情况，可以把订单号和具体诉求发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "minimal_pair_opened_non_quality_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00129",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：能退款吗？",
+    "input": {
+      "product_category": "家居用品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "neutral",
+      "platform_rule": "商品存在质量问题时可申请退货退款，并由商家承担相关运费。"
+    },
+    "output": "您好，根据平台规则，如果家居用品存在质量问题，即使已经拆封，也是可以申请退货退款的。请您在订单页面提交售后申请并上传相关凭证，我们核实后会按流程处理，相关运费由商家承担。",
+    "policy_tags": [
+      "退货退款",
+      "质量问题可退",
+      "minimal_pair_quality_issue_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00130",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：能退款吗？",
+    "input": {
+      "product_category": "家居用品",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，家居用品在未拆封且不影响二次销售的情况下，支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "minimal_pair_unopened_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00131",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：能退款吗？",
+    "input": {
+      "product_category": "家居用品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，家居用品在已拆封且无质量问题的情况下，通常不支持7天无理由退货。如果您有其他特殊情况，可以把订单号和具体诉求发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "minimal_pair_opened_non_quality_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00132",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：能退款吗？",
+    "input": {
+      "product_category": "家居用品",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "anxious",
+      "platform_rule": "商品存在质量问题时可申请退货退款，并由商家承担相关运费。"
+    },
+    "output": "您好，根据平台规则，如果家居用品存在质量问题，即使已经拆封，也是可以申请退货退款的。请您在订单页面提交售后申请并上传相关凭证，我们核实后会按流程处理，相关运费由商家承担。",
+    "policy_tags": [
+      "退货退款",
+      "质量问题可退",
+      "minimal_pair_quality_issue_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00133",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：能退款吗？",
+    "input": {
+      "product_category": "数码配件",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，数码配件在未拆封且不影响二次销售的情况下，支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "minimal_pair_unopened_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00134",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：能退款吗？",
+    "input": {
+      "product_category": "数码配件",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，数码配件在已拆封且无质量问题的情况下，通常不支持7天无理由退货。如果您有其他特殊情况，可以把订单号和具体诉求发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "minimal_pair_opened_non_quality_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00135",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：能退款吗？",
+    "input": {
+      "product_category": "数码配件",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "neutral",
+      "platform_rule": "商品存在质量问题时可申请退货退款，并由商家承担相关运费。"
+    },
+    "output": "您好，根据平台规则，如果数码配件存在质量问题，即使已经拆封，也是可以申请退货退款的。请您在订单页面提交售后申请并上传相关凭证，我们核实后会按流程处理，相关运费由商家承担。",
+    "policy_tags": [
+      "退货退款",
+      "质量问题可退",
+      "minimal_pair_quality_issue_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00136",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：能退款吗？",
+    "input": {
+      "product_category": "数码配件",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，数码配件在未拆封且不影响二次销售的情况下，支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "minimal_pair_unopened_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00137",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：能退款吗？",
+    "input": {
+      "product_category": "数码配件",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，数码配件在已拆封且无质量问题的情况下，通常不支持7天无理由退货。如果您有其他特殊情况，可以把订单号和具体诉求发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "minimal_pair_opened_non_quality_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00138",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：能退款吗？",
+    "input": {
+      "product_category": "数码配件",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "anxious",
+      "platform_rule": "商品存在质量问题时可申请退货退款，并由商家承担相关运费。"
+    },
+    "output": "您好，根据平台规则，如果数码配件存在质量问题，即使已经拆封，也是可以申请退货退款的。请您在订单页面提交售后申请并上传相关凭证，我们核实后会按流程处理，相关运费由商家承担。",
+    "policy_tags": [
+      "退货退款",
+      "质量问题可退",
+      "minimal_pair_quality_issue_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00139",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：能退款吗？",
+    "input": {
+      "product_category": "服饰",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，服饰在未拆封且不影响二次销售的情况下，支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "minimal_pair_unopened_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00140",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：能退款吗？",
+    "input": {
+      "product_category": "服饰",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "neutral",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，服饰在已拆封且无质量问题的情况下，通常不支持7天无理由退货。如果您有其他特殊情况，可以把订单号和具体诉求发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "minimal_pair_opened_non_quality_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00141",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：能退款吗？",
+    "input": {
+      "product_category": "服饰",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "neutral",
+      "platform_rule": "商品存在质量问题时可申请退货退款，并由商家承担相关运费。"
+    },
+    "output": "您好，根据平台规则，如果服饰存在质量问题，即使已经拆封，也是可以申请退货退款的。请您在订单页面提交售后申请并上传相关凭证，我们核实后会按流程处理，相关运费由商家承担。",
+    "policy_tags": [
+      "退货退款",
+      "质量问题可退",
+      "minimal_pair_quality_issue_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00142",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：能退款吗？",
+    "input": {
+      "product_category": "服饰",
+      "order_status": "已签收",
+      "is_opened": false,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品未拆封且不影响二次销售，支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，服饰在未拆封且不影响二次销售的情况下，支持7天无理由退货。您可以在订单页面提交退货申请，我们会按流程为您处理。",
+    "policy_tags": [
+      "退货退款",
+      "可无理由退货",
+      "minimal_pair_unopened_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00143",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：能退款吗？",
+    "input": {
+      "product_category": "服饰",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": false,
+      "user_emotion": "anxious",
+      "platform_rule": "商品已拆封且非质量问题时，通常不支持7天无理由退货。"
+    },
+    "output": "您好，根据平台规则，服饰在已拆封且无质量问题的情况下，通常不支持7天无理由退货。如果您有其他特殊情况，可以把订单号和具体诉求发给我，我帮您进一步核实。",
+    "policy_tags": [
+      "退货退款",
+      "不可无理由退货",
+      "minimal_pair_opened_non_quality_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  },
+  {
+    "id": "minimal_pair_售后_退货退款_00144",
+    "category": "售后",
+    "subcategory": "退货退款",
+    "instruction": "用户问：能退款吗？",
+    "input": {
+      "product_category": "服饰",
+      "order_status": "已签收",
+      "is_opened": true,
+      "has_quality_issue": true,
+      "user_emotion": "anxious",
+      "platform_rule": "商品存在质量问题时可申请退货退款，并由商家承担相关运费。"
+    },
+    "output": "您好，根据平台规则，如果服饰存在质量问题，即使已经拆封，也是可以申请退货退款的。请您在订单页面提交售后申请并上传相关凭证，我们核实后会按流程处理，相关运费由商家承担。",
+    "policy_tags": [
+      "退货退款",
+      "质量问题可退",
+      "minimal_pair_quality_issue_refund"
+    ],
+    "quality_label": "good",
+    "difficulty": "medium",
+    "source": "synthetic_targeted_minimal_pair",
+    "schema_version": "ecom_cs_schema_v1"
+  }
+]
